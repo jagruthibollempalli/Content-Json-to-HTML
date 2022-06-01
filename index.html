@@ -67,6 +67,12 @@
             pages.push(page)
             
         }
+        const fs = require("fs");
+
+        fs.writeFile("sample.html", "<html><body><h1>HEllo</h1><body></html>", (err) => {
+        if (err) throw err;
+        console.log("Completed!");
+        });
         console.log(pages)
         var cont = document.getElementById('container');
         var dl = document.createElement('dl');
