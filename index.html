@@ -22,7 +22,7 @@
      <div id = 'hed'></div>
      <script>
         let data = "";
-        let apiUrl ="https://raw.githubusercontent.com/jagruthibollempalli/contentjson/main/_hierarchy.json"
+        let apiUrl ="https://raw.githubusercontent.com/jagruthibollempalli/Content-Json-to-HTML/main/Json_content/functions/_hierarchy.json"
         async function getJson(url) {
         let response = await fetch(url);
         let jsondata = await response.json()
@@ -55,7 +55,7 @@
                     // console.log(data.children[u].children[m].children[0])
                     var idrefval = data.children[u].children[m].children[pa].idref
                   
-                    url = 'https://raw.githubusercontent.com/jagruthibollempalli/contentjson/main/'+idrefval+'.json'
+                    url = 'https://raw.githubusercontent.com/jagruthibollempalli/Content-Json-to-HTML/main/Json_content/functions/'+idrefval+'.json'
                     // console.log(url)
                     pagedata = await getJson(url)
                     // console.log(pagedata.title);
