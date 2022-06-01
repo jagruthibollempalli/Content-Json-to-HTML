@@ -1,0 +1,153 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2565548784",
+                  "type": "p"
+                }
+              ],
+              "id": "781541007"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2010718257",
+                  "type": "p"
+                }
+              ],
+              "id": "2073884359"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "1994340592",
+                  "type": "p"
+                }
+              ],
+              "id": "299275271"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done, keep going. "
+                      }
+                    ],
+                    "id": "2615683651",
+                    "type": "p"
+                  }
+                ],
+                "id": "573982482"
+              },
+              "id": "3569126696",
+              "rule": "input contains {4}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can go and always revise the module in case you are facing difficulties."
+                      }
+                    ],
+                    "id": "3036647386",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about arguments in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function calls"
+                      },
+                      {
+                        "text": " module."
+                      }
+                    ],
+                    "id": "3036647386",
+                    "type": "p"
+                  }
+                ],
+                "id": "1092572727"
+              },
+              "id": "4146389549",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "In the function call below, how many arguments are there?buy_ticket(money, source, destination, train_no)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "In the function call below, how many arguments are there?"
+            }
+          ],
+          "id": "1812916255",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "buy_ticket(money, source, destination, train_no)"
+            }
+          ],
+          "id": "1812916255",
+          "type": "p"
+        }
+      ],
+      "id": "3987331688"
+    }
+  },
+  "id": "1864",
+  "objectives": {
+    "1": [
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1836",
+    "1624"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

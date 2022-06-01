@@ -1,0 +1,191 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "4030543227",
+                  "type": "p"
+                }
+              ],
+              "id": "921315095"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "3589545649",
+                  "type": "p"
+                }
+              ],
+              "id": "3318116314"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "2022173864",
+                  "type": "p"
+                }
+              ],
+              "id": "2358778177"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Congratulations! you are doing well."
+                      }
+                    ],
+                    "id": "386519532",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "def indicates start of the function."
+                      }
+                    ],
+                    "id": "386519532",
+                    "type": "p"
+                  }
+                ],
+                "id": "3324120500"
+              },
+              "id": "3858177522",
+              "rule": "input like {1746971981}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about function definition in the upcoming course."
+                      }
+                    ],
+                    "id": "1294910089",
+                    "type": "p"
+                  }
+                ],
+                "id": "2273067877"
+              },
+              "id": "335501944",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Fill in the blank with appropriate optiondef indicates _______ of the function.",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2660423821",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Start"
+              }
+            ],
+            "id": "2904886216",
+            "type": "p"
+          }
+        ],
+        "id": "1746971981"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "end"
+              }
+            ],
+            "id": "2713778563",
+            "type": "p"
+          }
+        ],
+        "id": "2341740922"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Fill in the blank with appropriate option"
+            }
+          ],
+          "id": "2849844404",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2849844404",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "def indicates _______ of the function."
+            }
+          ],
+          "id": "2849844404",
+          "type": "p"
+        }
+      ],
+      "id": "302752330"
+    }
+  },
+  "id": "1903",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1836"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,147 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "How parameters pass to the function call"
+                    }
+                  ],
+                  "id": "2462296929",
+                  "type": "p"
+                }
+              ],
+              "id": "2738928168"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The elements present in the parenthesis"
+                    }
+                  ],
+                  "id": "2314480634",
+                  "type": "p"
+                }
+              ],
+              "id": "2070595985"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "in function f1(x,y), the parameters of the f1 function are x and y"
+                    }
+                  ],
+                  "id": "3404799646",
+                  "type": "p"
+                }
+              ],
+              "id": "3928664134"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "755802041",
+                    "type": "p"
+                  }
+                ],
+                "id": "3889659949"
+              },
+              "id": "1265323489",
+              "rule": "input contains {explample1,example2}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "2009012440",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Parameters are inside the parentheses next to the name, explample1,example2"
+                      }
+                    ],
+                    "id": "2009012440",
+                    "type": "p"
+                  }
+                ],
+                "id": "2545967476"
+              },
+              "id": "720814065",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What are the parameters in the function call?example(\"explample1\",\"example2\")",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What are the parameters in the function call?"
+            }
+          ],
+          "id": "3393155471",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "example(\"explample1\",\"example2\")"
+            }
+          ],
+          "id": "3393155471",
+          "type": "p"
+        }
+      ],
+      "id": "2399644037"
+    }
+  },
+  "id": "1123",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1263",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

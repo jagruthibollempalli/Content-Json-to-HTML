@@ -1,0 +1,121 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3753165790",
+                  "type": "p"
+                }
+              ],
+              "id": "3846495378"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "164304464",
+                    "type": "p"
+                  }
+                ],
+                "id": "1114599798"
+              },
+              "id": "1367882428",
+              "rule": "input contains {min(60,30)}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect, min(60,30)"
+                      }
+                    ],
+                    "id": "636448523",
+                    "type": "p"
+                  }
+                ],
+                "id": "1325919087"
+              },
+              "id": "2794799380",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Calculate the minimum of the elements 60 and 30 using invuilt functions .",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "726430821",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "168598665",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Calculate the minimum of the elements 60 and 30 using invuilt functions "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "168598665",
+              "type": "input_ref"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "id": "103483116",
+          "type": "p"
+        }
+      ],
+      "id": "4291945351"
+    }
+  },
+  "id": "1352",
+  "objectives": {
+    "1": []
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

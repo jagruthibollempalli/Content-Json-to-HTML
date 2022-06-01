@@ -1,0 +1,139 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "893700714",
+                  "type": "p"
+                }
+              ],
+              "id": "2806676224"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "254335341",
+                  "type": "p"
+                }
+              ],
+              "id": "2613459717"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1817359137",
+                  "type": "p"
+                }
+              ],
+              "id": "816219024"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2701171558",
+                    "type": "p"
+                  }
+                ],
+                "id": "3426289025"
+              },
+              "id": "892559273",
+              "rule": "input contains {max('Apple','Orange')}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "4117187939",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "max('Apple','Orange')"
+                      }
+                    ],
+                    "id": "4117187939",
+                    "type": "p"
+                  }
+                ],
+                "id": "3643733406"
+              },
+              "id": "1821690653",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "A function to find the maximum of the fruits from 'Apple' and 'Orange'.",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "A function to find the maximum of the fruits from 'Apple' and 'Orange'."
+            }
+          ],
+          "id": "1923394986",
+          "type": "p"
+        }
+      ],
+      "id": "3212617905"
+    }
+  },
+  "id": "1621",
+  "objectives": {
+    "1": [
+      "963",
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1617",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

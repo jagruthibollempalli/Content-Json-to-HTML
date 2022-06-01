@@ -1,0 +1,138 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Return statement is used for"
+                    }
+                  ],
+                  "id": "2846696551",
+                  "type": "p"
+                }
+              ],
+              "id": "2660258784"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The return is used for return from the function"
+                    }
+                  ],
+                  "id": "3923900449",
+                  "type": "p"
+                }
+              ],
+              "id": "2827421896"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1869392435",
+                  "type": "p"
+                }
+              ],
+              "id": "1780297346"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "3486401231",
+                    "type": "p"
+                  }
+                ],
+                "id": "3528057830"
+              },
+              "id": "1166005539",
+              "rule": "input contains {output}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3664430502",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Return Provides the Returned Value Output"
+                      }
+                    ],
+                    "id": "3664430502",
+                    "type": "p"
+                  }
+                ],
+                "id": "2987194928"
+              },
+              "id": "2050056623",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "The return statement in the functions used to show?",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "The return statement in the functions used to show?"
+            }
+          ],
+          "id": "3440837329",
+          "type": "p"
+        }
+      ],
+      "id": "350027612"
+    }
+  },
+  "id": "1125",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1263",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

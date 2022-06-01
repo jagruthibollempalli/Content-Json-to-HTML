@@ -1,0 +1,178 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "what is the returned value of each function call?"
+                    }
+                  ],
+                  "id": "1945766338",
+                  "type": "p"
+                }
+              ],
+              "id": "3606372459"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "ceil( ) function takes a float value and rounds to the integer greater than the passed argument."
+                    }
+                  ],
+                  "id": "732237908",
+                  "type": "p"
+                }
+              ],
+              "id": "2719893200"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You are right . well done "
+                      }
+                    ],
+                    "id": "2588043828",
+                    "type": "p"
+                  }
+                ],
+                "id": "2493684917"
+              },
+              "id": "1292720241",
+              "rule": "input contains {7}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "2490409617",
+                    "type": "p"
+                  }
+                ],
+                "id": "1872362988"
+              },
+              "id": "2957971308",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Don't just copy and run this code to find the answer.Try to determine the answer by yourself!import mathmath.ceil(6.2) ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1239421457",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "3200336527",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Don't just copy and run this code to find the answer."
+            }
+          ],
+          "id": "789244051",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Try to determine the answer by yourself!"
+            }
+          ],
+          "id": "789244051",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "import math"
+            }
+          ],
+          "id": "789244051",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "math.ceil(6.2) "
+            }
+          ],
+          "id": "789244051",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "3200336527",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "789244051",
+          "type": "p"
+        }
+      ],
+      "id": "3818969474"
+    }
+  },
+  "id": "1859",
+  "objectives": {
+    "1": [
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1638",
+    "1834"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

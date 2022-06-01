@@ -1,0 +1,118 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2130488436",
+                  "type": "p"
+                }
+              ],
+              "id": "1187941000"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2915871764",
+                  "type": "p"
+                }
+              ],
+              "id": "3069609749"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3611428857",
+                  "type": "p"
+                }
+              ],
+              "id": "1974015927"
+            }
+          ],
+          "id": "1",
+          "responses": [],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": ""
+    },
+    "feedback": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Incorrect"
+              }
+            ],
+            "id": "2385590388",
+            "type": "p"
+          }
+        ],
+        "id": "2295279222"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Correct"
+              }
+            ],
+            "id": "1884039215",
+            "type": "p"
+          }
+        ],
+        "id": "177804548"
+      }
+    ],
+    "isExample": false,
+    "regex": "",
+    "resourceURLs": [],
+    "solutionCode": "Sample Solution Code",
+    "starterCode": "Sample Starter Code",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "155210255",
+          "type": "p"
+        }
+      ],
+      "id": "3871425296"
+    },
+    "tolerance": 1
+  },
+  "id": "896",
+  "objectives": {
+    "1": []
+  },
+  "originalFile": "",
+  "subType": "oli_image_coding",
+  "tags": [],
+  "title": "Image Coding",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

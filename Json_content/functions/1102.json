@@ -1,0 +1,162 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "313892424",
+                  "type": "p"
+                }
+              ],
+              "id": "4024748018"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3449221757",
+                  "type": "p"
+                }
+              ],
+              "id": "27347640"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3207734316",
+                  "type": "p"
+                }
+              ],
+              "id": "958774341"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2489098429",
+                    "type": "p"
+                  }
+                ],
+                "id": "839532836"
+              },
+              "id": "499248642",
+              "rule": "input contains {Blank}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1067359003",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "pow() produces no explicit output, unless you explicitly "
+                      },
+                      {
+                        "strong": true,
+                        "text": "print"
+                      },
+                      {
+                        "text": " it; the interpreter just shows a "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Blank"
+                      },
+                      {
+                        "text": " instead."
+                      }
+                    ],
+                    "id": "1067359003",
+                    "type": "p"
+                  }
+                ],
+                "id": "2016581894"
+              },
+              "id": "113521897",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What is the output ?pow(3, 2 )",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What is the output ?"
+            }
+          ],
+          "id": "1840836766",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "pow(3, 2 )"
+            }
+          ],
+          "id": "1840836766",
+          "type": "p"
+        }
+      ],
+      "id": "1154595794"
+    }
+  },
+  "id": "1102",
+  "objectives": {
+    "1": [
+      "962",
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1261",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,156 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "2453302020",
+                  "type": "p"
+                }
+              ],
+              "id": "3084989287"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "3670295893",
+                  "type": "p"
+                }
+              ],
+              "id": "2410357952"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2936405077",
+                  "type": "p"
+                }
+              ],
+              "id": "1563908809"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Good job!"
+                      }
+                    ],
+                    "id": "526421206",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Arguments refer to the varibles which are passed in parathesis during a function call."
+                      }
+                    ],
+                    "id": "526421206",
+                    "type": "p"
+                  }
+                ],
+                "id": "365076898"
+              },
+              "id": "3343376409",
+              "rule": "input contains {2}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn more about function arguments in the upcoming course."
+                      }
+                    ],
+                    "id": "563421663",
+                    "type": "p"
+                  }
+                ],
+                "id": "3507678153"
+              },
+              "id": "76101903",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "In the function call below, how many arguments are there? calculate_percentage(student_marks, total)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "In the function call below, how many arguments are there? "
+            }
+          ],
+          "id": "1750139368",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "calculate_percentage(student_marks, total)"
+            }
+          ],
+          "id": "1750139368",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1750139368",
+          "type": "p"
+        }
+      ],
+      "id": "2964120396"
+    }
+  },
+  "id": "1863",
+  "objectives": {
+    "1": [
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1836",
+    "1617"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

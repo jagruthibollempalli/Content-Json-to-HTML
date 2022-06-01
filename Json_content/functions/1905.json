@@ -1,0 +1,193 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What happens if funtion doesn't return anything?"
+                    }
+                  ],
+                  "id": "263791981",
+                  "type": "p"
+                }
+              ],
+              "id": "2640379775"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "A function can also used to run a specific set of code without returning anything."
+                    }
+                  ],
+                  "id": "2118974657",
+                  "type": "p"
+                }
+              ],
+              "id": "2496773155"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "If the function does'nt contain a return statement, it returns None."
+                    }
+                  ],
+                  "id": "3924977966",
+                  "type": "p"
+                }
+              ],
+              "id": "1193637403"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You are going on right track !!"
+                      }
+                    ],
+                    "id": "2874859357",
+                    "type": "p"
+                  }
+                ],
+                "id": "3454647164"
+              },
+              "id": "267980993",
+              "rule": "input like {2833375139}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "472578334",
+                    "type": "p"
+                  }
+                ],
+                "id": "2410829811"
+              },
+              "id": "304676612",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What would happen when calling a function that has no return statement?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "20777047",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "It will throw runtime error"
+              }
+            ],
+            "id": "3756279569",
+            "type": "p"
+          }
+        ],
+        "id": "2833375139"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "It will throw logical error"
+              }
+            ],
+            "id": "2440471826",
+            "type": "p"
+          }
+        ],
+        "id": "3105036369"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "It will return 0 as default answer"
+              }
+            ],
+            "id": "4058186413",
+            "type": "p"
+          }
+        ],
+        "id": "506543836"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "It will return None"
+              }
+            ],
+            "id": "978669301",
+            "type": "p"
+          }
+        ],
+        "id": "95480933"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What would happen when calling a function that has no return statement?"
+            }
+          ],
+          "id": "1546113973",
+          "type": "p"
+        }
+      ],
+      "id": "332435758"
+    }
+  },
+  "id": "1905",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1638",
+    "1834"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

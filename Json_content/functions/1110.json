@@ -1,0 +1,138 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "284817300",
+                  "type": "p"
+                }
+              ],
+              "id": "988694576"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1851726328",
+                  "type": "p"
+                }
+              ],
+              "id": "683654074"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1686807962",
+                  "type": "p"
+                }
+              ],
+              "id": "216187804"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2929991660",
+                    "type": "p"
+                  }
+                ],
+                "id": "956444449"
+              },
+              "id": "3580863598",
+              "rule": "input contains {import}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "4010471773",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "importing the modules by using the \"import\""
+                      }
+                    ],
+                    "id": "4010471773",
+                    "type": "p"
+                  }
+                ],
+                "id": "2524291632"
+              },
+              "id": "2554200305",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "How to import a python module?",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "How to import a python module?"
+            }
+          ],
+          "id": "2729807011",
+          "type": "p"
+        }
+      ],
+      "id": "3644015191"
+    }
+  },
+  "id": "1110",
+  "objectives": {
+    "1": [
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1262",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

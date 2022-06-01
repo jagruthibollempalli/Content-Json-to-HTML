@@ -1,0 +1,283 @@
+{
+  "content": {
+    "authoring": {
+      "correct": [
+        [
+          "2473924611",
+          "3160284600",
+          "1588844056",
+          "4243549876"
+        ],
+        "1167237162"
+      ],
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "write a code that takes a variable x which holds a number as a string, turns it into an integer, and then doubles that integer."
+                    }
+                  ],
+                  "id": "3220529463",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "What steps will be there in code if one wants to convert a variable containg a string into an integer, then double it and finally print it."
+                    }
+                  ],
+                  "id": "3220529463",
+                  "type": "p"
+                }
+              ],
+              "id": "2191289609"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Start with declaring a variable which holds an string, make sure that the string value can be converted into an integer."
+                    }
+                  ],
+                  "id": "3145941010",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Convert it into an integer and store it in another variable."
+                    }
+                  ],
+                  "id": "3145941010",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Double this integer and store it a new variable and print it."
+                    }
+                  ],
+                  "id": "3145941010",
+                  "type": "p"
+                }
+              ],
+              "id": "4202851319"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "x = \"21\" is the first step"
+                    }
+                  ],
+                  "id": "120790971",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Next, y = int(21), y will hold the value 21, which is an interger."
+                    }
+                  ],
+                  "id": "120790971",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Next, z = y*2, z holds 42 as the value is doubled."
+                    }
+                  ],
+                  "id": "120790971",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Final step would be print(z)."
+                    }
+                  ],
+                  "id": "120790971",
+                  "type": "p"
+                }
+              ],
+              "id": "3684894887"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Are you the smart one ? "
+                      }
+                    ],
+                    "id": "4102548861",
+                    "type": "p"
+                  }
+                ],
+                "id": "4250050700"
+              },
+              "id": "1167237162",
+              "rule": "input like {2473924611 3160284600 1588844056 4243549876}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "3644131416",
+                    "type": "p"
+                  }
+                ],
+                "id": "3047151957"
+              },
+              "id": "3709445526",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "write a code that takes a variable x which holds a number as a string, turns it into an integer, and then divides the integer by 2For example, if x = \"20\", then your line of code should produce 10Rearrange the options such that the lines satisfies the above problem statement.",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3961527367",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "x = \"21\""
+              }
+            ],
+            "id": "1032532420",
+            "type": "p"
+          }
+        ],
+        "id": "2473924611"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "y = int(x)"
+              }
+            ],
+            "id": "3874042649",
+            "type": "p"
+          }
+        ],
+        "id": "3160284600"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "z = y//2"
+              }
+            ],
+            "id": "1119853415",
+            "type": "p"
+          }
+        ],
+        "id": "1588844056"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "print(z)"
+              }
+            ],
+            "id": "1951240790",
+            "type": "p"
+          }
+        ],
+        "id": "4243549876"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "write a code that takes a variable x which holds a number as a string, turns it into an integer, and then divides the integer by 2"
+            }
+          ],
+          "id": "1189970985",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "For example, if x = \"20\", then your line of code should produce 10"
+            }
+          ],
+          "id": "1189970985",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1189970985",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Rearrange the options such that the lines satisfies the above problem statement."
+            }
+          ],
+          "id": "1189970985",
+          "type": "p"
+        }
+      ],
+      "id": "3147089440"
+    }
+  },
+  "id": "1844",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_ordering",
+  "tags": [
+    "1638",
+    "1834"
+  ],
+  "title": "Ordering",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

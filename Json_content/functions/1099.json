@@ -1,0 +1,176 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Use parentheses and solve the expression"
+                    }
+                  ],
+                  "id": "298969814",
+                  "type": "p"
+                }
+              ],
+              "id": "1518121883"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "First solve abs() and solve pow()"
+                    }
+                  ],
+                  "id": "1438376130",
+                  "type": "p"
+                }
+              ],
+              "id": "4258773798"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Start by evaluating the inner-most expressions, abs(16-2*5)"
+                    },
+                    {
+                      "code": true,
+                      "text": ". "
+                    },
+                    {
+                      "text": "Then evaluate the call to pow(). Finally, evaluate the call to print"
+                    },
+                    {
+                      "code": true,
+                      "text": ". "
+                    },
+                    {
+                      "text": "Value is 216"
+                    }
+                  ],
+                  "id": "1252469916",
+                  "type": "p"
+                }
+              ],
+              "id": "13071136"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "3784127037",
+                    "type": "p"
+                  }
+                ],
+                "id": "2506151022"
+              },
+              "id": "1976196263",
+              "rule": "input contains {216}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "2380720067",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Functions follow the order of operations using parentheses. Start by evaluating the inner-most expressions, "
+                      },
+                      {
+                        "code": true,
+                        "text": "abs(16-2*5). "
+                      },
+                      {
+                        "text": "Then evaluate the call to pow. Finally, evaluate the call to "
+                      },
+                      {
+                        "code": true,
+                        "text": "print. "
+                      },
+                      {
+                        "text": "Value is 216"
+                      }
+                    ],
+                    "id": "2380720067",
+                    "type": "p"
+                  }
+                ],
+                "id": "1483298041"
+              },
+              "id": "2341854440",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What is the value of the following expression:print(pow(abs(16 - 2 * 5 ),3))",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What is the value of the following expression:"
+            }
+          ],
+          "id": "3206994398",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(pow(abs(16 - 2 * 5 ),3))"
+            }
+          ],
+          "id": "3206994398",
+          "type": "p"
+        }
+      ],
+      "id": "403924658"
+    }
+  },
+  "id": "1099",
+  "objectives": {
+    "1": [
+      "962",
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1260",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

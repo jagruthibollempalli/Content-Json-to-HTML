@@ -1,0 +1,203 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2021404875",
+                  "type": "p"
+                }
+              ],
+              "id": "2942799865"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "306216070",
+                  "type": "p"
+                }
+              ],
+              "id": "3097668226"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3442105837",
+                  "type": "p"
+                }
+              ],
+              "id": "1152645664"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "27019318",
+                    "type": "p"
+                  }
+                ],
+                "id": "3117912618"
+              },
+              "id": "3549289313",
+              "rule": "input like {1219847907}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "2289801516",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "def fun():"
+                      }
+                    ],
+                    "id": "2289801516",
+                    "type": "p"
+                  }
+                ],
+                "id": "3607639133"
+              },
+              "id": "3282731010",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "choose the correct function definition",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2566385696",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "def fun():"
+              }
+            ],
+            "id": "511709041",
+            "type": "p"
+          }
+        ],
+        "id": "1219847907"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "fun():"
+              }
+            ],
+            "id": "2182655361",
+            "type": "p"
+          }
+        ],
+        "id": "3837874438"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "def fun()"
+              }
+            ],
+            "id": "2327086250",
+            "type": "p"
+          }
+        ],
+        "id": "763890525"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "def fun"
+              }
+            ],
+            "id": "3270638739",
+            "type": "p"
+          }
+        ],
+        "id": "1175778193"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "choose the correct function definition"
+            }
+          ],
+          "id": "1523007573",
+          "type": "p"
+        }
+      ],
+      "id": "480722458"
+    }
+  },
+  "id": "1693",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1624",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

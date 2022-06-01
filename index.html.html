@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head> 
+    <title>Content</title>
+    <style>
+        .democlass {
+          color: blue;
+          font-size: smaller;
+          list-style:square
+        }
+        .dclass {
+          font-size:medium;
+        }
+        .d1class {
+          font-size:larger;
+        }
+        </style>
+ </head>
+ <body>
+     <h1>content</h1>
+     <div id = 'hed'></div>
+     <script>
+        let data = "";
+        let apiUrl ="https://raw.githubusercontent.com/jagruthibollempalli/contentjson/main/_hierarchy.json"
+        async function getJson(url) {
+        let response = await fetch(url);
+        let jsondata = await response.json()
+        return jsondata;
+        }
+        async function main() {
+            data = await getJson(apiUrl)
+            console.log(data);
+            const units= []
+        const modules = []
+        const pages =[]
+        for(var u in data.children) {
+            console.log(u)
+            const mod = []
+            const page=[]
+            units.push(data.children[u].title)
+            for(var m in data.children[u].children){
+               
+                if('title' in data.children[u].children[m]){
+                mod.push(data.children[u].children[m].title)
+                }
+                else{
+                    str = data.children[u].title
+                    project = str.replace('[Project]', '');
+                    mod.push("<li style='color:blue;font-size:smaller;list-style:square'><a href='#'>"+project+"</li>")
+                }
+                const p = []
+                for(var pa in data.children[u].children[m].children){
+                    // console.log(data.children[u].children[0])
+                    // console.log(data.children[u].children[m].children[0])
+                    var idrefval = data.children[u].children[m].children[pa].idref
+                  
+                    url = 'https://raw.githubusercontent.com/jagruthibollempalli/contentjson/main/'+idrefval+'.json'
+                    // console.log(url)
+                    pagedata = await getJson(url)
+                    // console.log(pagedata.title);
+                    p.push(pagedata.title)
+                    
+                }
+                page.push(p)
+            }
+            modules.push(mod)
+            pages.push(page)
+            
+        }
+        console.log(pages)
+        var cont = document.getElementById('container');
+        var dl = document.createElement('dl');
+        let list = document.getElementById("myList");
+        for (i = 0; i <= units.length - 1; i++) {
+        var dt = document.createElement('dt');
+        dt.innerHTML = units[i]; 
+        dt.setAttribute("class", "d1class");        
+        dl.appendChild(dt);
+        for(j = 0;j<=modules[i].length-1;j++) {
+            var dd = document.createElement('dd');
+            dd.innerHTML = modules[i][j];
+            dd.setAttribute("class", "dclass");
+            dt.appendChild(dd);
+            for(k = 0;k<=pages[i][j].length-1;k++){ 
+                var p = document.createElement('li')
+                p.innerHTML= "<a href='#'>"+pages[i][j][k]+ "</a>"
+                p.setAttribute("class", "democlass");
+                dd.appendChild(p)
+            }
+
+        }    
+                
+    }
+    cont.appendChild(dl); 
+    }
+
+    main();
+        
+
+     </script>
+    <div id='container'>
+        
+    </div>
+
+</body>
+
+</html>

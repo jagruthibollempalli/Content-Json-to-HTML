@@ -1,0 +1,138 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The library module is used for mathematical calculations"
+                    }
+                  ],
+                  "id": "53143887",
+                  "type": "p"
+                }
+              ],
+              "id": "3506307163"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Module name is the part of the question"
+                    }
+                  ],
+                  "id": "3396590594",
+                  "type": "p"
+                }
+              ],
+              "id": "3445291660"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The square root of the number is calculated by using math.sqrt(4) = 2"
+                    }
+                  ],
+                  "id": "1049627241",
+                  "type": "p"
+                }
+              ],
+              "id": "4187928414"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2520694993",
+                    "type": "p"
+                  }
+                ],
+                "id": "4217939879"
+              },
+              "id": "1678038564",
+              "rule": "input contains {math}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "622603543",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "math library is used to add more mathematical capabilities"
+                      }
+                    ],
+                    "id": "622603543",
+                    "type": "p"
+                  }
+                ],
+                "id": "62846857"
+              },
+              "id": "1393951232",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Which module is used for mathematical operations?",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Which module is used for mathematical operations?"
+            }
+          ],
+          "id": "1034369537",
+          "type": "p"
+        }
+      ],
+      "id": "563890890"
+    }
+  },
+  "id": "1105",
+  "objectives": {
+    "1": [
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1262",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

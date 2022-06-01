@@ -1,0 +1,174 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "817731585",
+                  "type": "p"
+                }
+              ],
+              "id": "925842940"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2445690390",
+                  "type": "p"
+                }
+              ],
+              "id": "3315522974"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3007242801",
+                  "type": "p"
+                }
+              ],
+              "id": "3118219088"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "4225023201",
+                    "type": "p"
+                  }
+                ],
+                "id": "6048500"
+              },
+              "id": "1778515322",
+              "rule": "input like {3537445700}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1796241965",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "We can give same name to the local and global variables"
+                      }
+                    ],
+                    "id": "1796241965",
+                    "type": "p"
+                  }
+                ],
+                "id": "3585973881"
+              },
+              "id": "2325880772",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Can we give the same name to my local and global variables?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2248445907",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "True"
+              }
+            ],
+            "id": "872913632",
+            "type": "p"
+          }
+        ],
+        "id": "3537445700"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "False"
+              }
+            ],
+            "id": "3609908705",
+            "type": "p"
+          }
+        ],
+        "id": "1683616800"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Can we give the same name to my local and global variables?"
+            }
+          ],
+          "id": "2423800795",
+          "type": "p"
+        }
+      ],
+      "id": "1594702069"
+    }
+  },
+  "id": "1159",
+  "objectives": {
+    "1": [
+      "966"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

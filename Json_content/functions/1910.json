@@ -1,0 +1,114 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "2314274173",
+            "type": "p"
+          }
+        ],
+        "id": "2846988042",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "count": 8,
+        "id": "3394699132",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  964
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1836,
+                  1624
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      },
+      {
+        "count": 10,
+        "id": "3858961210",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  963
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1836,
+                  1624
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      },
+      {
+        "count": 9,
+        "id": "3212804962",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  962
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1836,
+                  1624
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      }
+    ]
+  },
+  "id": "1910",
+  "isGraded": true,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Post-Test",
+  "type": "Page",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,86 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1552234564",
+                  "type": "p"
+                }
+              ],
+              "id": "3274552799"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1083306863",
+                  "type": "p"
+                }
+              ],
+              "id": "2766403055"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3488031798",
+                  "type": "p"
+                }
+              ],
+              "id": "1271766143"
+            }
+          ],
+          "id": "1",
+          "outcomes": [
+            {
+              "actions": [
+                {
+                  "id": "action1",
+                  "type": "StateUpdateActionDesc",
+                  "update": {}
+                }
+              ],
+              "id": "outcome1",
+              "rule": []
+            }
+          ],
+          "responses": [],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "",
+      "transformations": []
+    },
+    "content": {}
+  },
+  "id": "968",
+  "objectives": {
+    "1": [
+      "962",
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_adaptive",
+  "tags": [],
+  "title": "Adaptive Activity",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,203 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Choose the correct names of python libraries"
+                    }
+                  ],
+                  "id": "2790791516",
+                  "type": "p"
+                }
+              ],
+              "id": "3720274684"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3323674549",
+                  "type": "p"
+                }
+              ],
+              "id": "3232801303"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3427803020",
+                  "type": "p"
+                }
+              ],
+              "id": "3426804780"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "141398065",
+                    "type": "p"
+                  }
+                ],
+                "id": "3204060815"
+              },
+              "id": "1222384457",
+              "rule": "input like {3815653587}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "372127772",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "math, random, tkinter"
+                      }
+                    ],
+                    "id": "372127772",
+                    "type": "p"
+                  }
+                ],
+                "id": "1389847995"
+              },
+              "id": "2629222434",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Choose the correct option for libraries",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1764226775",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "math, random, tkinter"
+              }
+            ],
+            "id": "1113785134",
+            "type": "p"
+          }
+        ],
+        "id": "3815653587"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "maths,random"
+              }
+            ],
+            "id": "3269922847",
+            "type": "p"
+          }
+        ],
+        "id": "2308890672"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Math, Random,TKinter"
+              }
+            ],
+            "id": "281196572",
+            "type": "p"
+          }
+        ],
+        "id": "3841040739"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "math,Tkinter"
+              }
+            ],
+            "id": "2419457972",
+            "type": "p"
+          }
+        ],
+        "id": "2278609133"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Choose the correct option for libraries"
+            }
+          ],
+          "id": "2866396907",
+          "type": "p"
+        }
+      ],
+      "id": "2870092659"
+    }
+  },
+  "id": "1109",
+  "objectives": {
+    "1": [
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1262",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

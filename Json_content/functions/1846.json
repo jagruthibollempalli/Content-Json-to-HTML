@@ -1,0 +1,238 @@
+{
+  "content": {
+    "authoring": {
+      "correct": [
+        [
+          "126403607",
+          "3214192629",
+          "1343850411",
+          "3281542202"
+        ],
+        "4161929597"
+      ],
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "1101886613",
+                  "type": "p"
+                }
+              ],
+              "id": "3256200309"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1328666518",
+                  "type": "p"
+                }
+              ],
+              "id": "1820855103"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "665701953",
+                  "type": "p"
+                }
+              ],
+              "id": "4181530506"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent! you rearranged the code and solved the problem."
+                      }
+                    ],
+                    "id": "796724247",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "796724247",
+                    "type": "p"
+                  }
+                ],
+                "id": "1796978314"
+              },
+              "id": "4161929597",
+              "rule": "input like {126403607 3214192629 1343850411 3281542202}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Oops! Something was not right about your answer. Lets practice pre-built functions it in the next module"
+                      }
+                    ],
+                    "id": "128602369",
+                    "type": "p"
+                  }
+                ],
+                "id": "1894051202"
+              },
+              "id": "3954058680",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "write a code that takes a variable x which holds a number as a string, turns it into an integer, and then triples that integer.For example, if x = \"25\", then your line of code should produce 75Submit your answer by rearranging the options given below, such that the lines satisfies the above problem statement.",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "712629653",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": " x = \"25\""
+              }
+            ],
+            "id": "1132629255",
+            "type": "p"
+          }
+        ],
+        "id": "126403607"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "y = int(x)"
+              }
+            ],
+            "id": "2930199027",
+            "type": "p"
+          }
+        ],
+        "id": "3214192629"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "z = y*3"
+              }
+            ],
+            "id": "1991770232",
+            "type": "p"
+          }
+        ],
+        "id": "1343850411"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "print(z)"
+              }
+            ],
+            "id": "1755582033",
+            "type": "p"
+          }
+        ],
+        "id": "3281542202"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "write a code that takes a variable x which holds a number as a string, turns it into an integer, and then triples that integer."
+            }
+          ],
+          "id": "851366045",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "For example, if x = \"25\", then your line of code should produce 75"
+            }
+          ],
+          "id": "1189970985",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1189970985",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Submit your answer by rearranging the options given below, such that the lines satisfies the above problem statement."
+            }
+          ],
+          "id": "1189970985",
+          "type": "p"
+        }
+      ],
+      "id": "4087252931"
+    }
+  },
+  "id": "1846",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_ordering",
+  "tags": [
+    "1836",
+    "1617"
+  ],
+  "title": "Ordering",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

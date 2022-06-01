@@ -1,0 +1,202 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3534315664",
+                  "type": "p"
+                }
+              ],
+              "id": "1367314158"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3614902622",
+                  "type": "p"
+                }
+              ],
+              "id": "2297539360"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2415916237",
+                  "type": "p"
+                }
+              ],
+              "id": "3934300839"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "3256767493",
+                    "type": "p"
+                  }
+                ],
+                "id": "2741662745"
+              },
+              "id": "1049466696",
+              "rule": "input like {2001789686}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "875499859",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Global variables are accessible from anywhere in the script"
+                      }
+                    ],
+                    "id": "875499859",
+                    "type": "p"
+                  }
+                ],
+                "id": "2702392855"
+              },
+              "id": "1840427240",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What is true of global variables?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1020229209",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Accessible only in the script that has the same name as the global variable"
+              }
+            ],
+            "id": "1305471994",
+            "type": "p"
+          }
+        ],
+        "id": "4043152042"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Accessible only in the block they are defined in"
+              }
+            ],
+            "id": "2631299542",
+            "type": "p"
+          }
+        ],
+        "id": "3015893989"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Accessible only in the function that has the same name as the global variable"
+              }
+            ],
+            "id": "3455830309",
+            "type": "p"
+          }
+        ],
+        "id": "3994948934"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Accessible from anywhere in the script"
+              }
+            ],
+            "id": "1903819248",
+            "type": "p"
+          }
+        ],
+        "id": "2001789686"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What is true of global variables?"
+            }
+          ],
+          "id": "3877862646",
+          "type": "p"
+        }
+      ],
+      "id": "816150107"
+    }
+  },
+  "id": "1155",
+  "objectives": {
+    "1": [
+      "966"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

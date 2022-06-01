@@ -1,0 +1,194 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "491284333",
+                  "type": "p"
+                }
+              ],
+              "id": "4287421788"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "4141164895",
+                  "type": "p"
+                }
+              ],
+              "id": "1942141102"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "21912197",
+                  "type": "p"
+                }
+              ],
+              "id": "2368613816"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Correct"
+                      }
+                    ],
+                    "id": "3729553884",
+                    "type": "p"
+                  }
+                ],
+                "id": "1086758090"
+              },
+              "id": "2850194769",
+              "rule": "input like {3917562420}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3578789715",
+                    "type": "p"
+                  }
+                ],
+                "id": "2701040868"
+              },
+              "id": "1986730335",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "The code block within every function starts with?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1580026516",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": ":"
+              }
+            ],
+            "id": "4846107",
+            "type": "p"
+          }
+        ],
+        "id": "3917562420"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": ";"
+              }
+            ],
+            "id": "720948468",
+            "type": "p"
+          }
+        ],
+        "id": "2941166273"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "#"
+              }
+            ],
+            "id": "2242028493",
+            "type": "p"
+          }
+        ],
+        "id": "1021641006"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": ","
+              }
+            ],
+            "id": "4220825415",
+            "type": "p"
+          }
+        ],
+        "id": "2663505573"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "The code block within every function starts with?"
+            }
+          ],
+          "id": "224080417",
+          "type": "p"
+        }
+      ],
+      "id": "3766967134"
+    }
+  },
+  "id": "1685",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1624",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

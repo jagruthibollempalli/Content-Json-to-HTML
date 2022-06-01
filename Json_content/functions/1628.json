@@ -1,0 +1,137 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3904300499",
+                  "type": "p"
+                }
+              ],
+              "id": "140447613"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "3133550168",
+                    "type": "p"
+                  }
+                ],
+                "id": "2646293422"
+              },
+              "id": "3282625129",
+              "rule": "input contains {int(234)}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "2092648149",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "int(234)"
+                      }
+                    ],
+                    "id": "2092648149",
+                    "type": "p"
+                  }
+                ],
+                "id": "3530503550"
+              },
+              "id": "3300307008",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Convert \"234\" to an integer.",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "506551838",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "3963959430",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Convert \"234\" to an integer."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "3963959430",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2561444255",
+          "type": "p"
+        }
+      ],
+      "id": "3390812246"
+    }
+  },
+  "id": "1628",
+  "objectives": {
+    "1": [
+      "962",
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1624",
+    "1612",
+    "1613"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,166 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Fill the blank in the third line using the output"
+                    }
+                  ],
+                  "id": "2584488058",
+                  "type": "p"
+                }
+              ],
+              "id": "663446895"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Perform mathematical calculations"
+                    }
+                  ],
+                  "id": "2886164353",
+                  "type": "p"
+                }
+              ],
+              "id": "2236194296"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "math.sqrt() gives the square root of the value"
+                    }
+                  ],
+                  "id": "3904743282",
+                  "type": "p"
+                }
+              ],
+              "id": "2101288341"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "271774700",
+                    "type": "p"
+                  }
+                ],
+                "id": "3796693479"
+              },
+              "id": "261597488",
+              "rule": "input contains {sqrt}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "2262165813",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "For calculating the square root of the number, we can use sqrt() function from the math module"
+                      }
+                    ],
+                    "id": "2262165813",
+                    "type": "p"
+                  }
+                ],
+                "id": "2461089246"
+              },
+              "id": "2926107080",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Output: 12.0Find the missing element in the code.",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1661804539",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3181339659",
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAACACAYAAABQmhYsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAA9ESURBVHhe7Z3PayNHFsf1Z/TVkIshh/HNOsawh5jNIYI5ROCDEYY1zZ7EBAaRixGzMGvmMIgEBuHDsPYhIB8G5ENY+zKgOQyRQ4ZoAjPIyzrBYZ2lw3pBhw28fdVdJXe3qlv9S1a39P1AMdPVpVap/L5dr7q6XpUIADABhAGABggDAA0QBgAaIAwANEAYAGiAMADQAGEAoCGSMPqPiQwuWTuWGQAsOJGE0eRSJZHuE13JPJBPensl/ltV6PBSZoBExOoxzBOZsSD0nhBt7BRF7BbXt8b17YTWF8LIhkjCWFQOuQcsTi94xfVlo79/CGHcARAGhAE0BAuDG7bCZ+2xhUyVI3nOzSvn3OEFUYfdEuFybbKLMrohagnD4+Pa17Is09tz8nri/+yilT9wjlc/4+Nrp4wHi6/Ln1HljA/5enw84Ot7kPVtcn3EZ9q7RCt8XDKIqk/tLJsr/g3iOmHJvkZcXjX5s2yQF0Nuh1VuhxVuhz63Q5/bYYXPrXA7DGVhB+tdl1q7Ff5twphL/Ns2+Ld1PL/t6qhinwtL7vo6wjCpe21R/8CkTfvaBrfvvr59gRY2gwBiCsNkQ3SXrT9wHbNxCiEIlDCqW67zKq3zeGYkCwrYQJqcN1FOlu25xSHra37J1+bv85dXT9RmLQxzt8z/KqM1uR2M22OjOW4H0SLNcTlvMna7LiEnEUaFattCjL6yH7fJK00QBJtBBKTRhQlDJPEHGj6/PRa9iBi42//nawiUMEQy+XrW/ziTU/ehk1f/xiknOJV5m4/YQJRg+K53+GeZfyDzBC4hG5/wZ+X3EdfBzmch+l2QTF0pWxjCAMvcDiNuB2XQohcR7bDm/F/Vi7gn2WlR961F43vBdZ/aW0JIVepMVCqOKyUS91AHfad9R0Nqi8/KuoDpsMlEIIIwDO4hxB9Y3ZHL7E4J1LFfGI2XzvEY+R0Gi8CGL1bn49L2rRs0hs81RK/gNmr1eRaA/64YJIBZCMN4cCrbwRFGmd0pgXM83fcPLhdHGAZVj7ytoOqTqDdcQtiUIiCNLkwYqsGVEPzHfmHoDMSeL+HzNmHfyXSl6zZ2TaaU1zELYdz+bq8h6gzeetOh5vYGrfLATJS9TWmFMfl5CCMebEoRCDM6bmhu7/kIg3sN537MTCmvY57CGHH5Mp+/FYM7QRjzhk0pAmFGxw3N7Z1eGOdEa5y/8Uwes/9k8rHWleJBd124UiyO8bmwOgZgC+OeS1xpiCUMi4UtDLhMjZOr2zEG4xfQLVIY9/ZD6wthZAObUgTCjI4bWhh6XGG03zjHAotFYcqnT+13MpPpsChEXpXFYinr4cF3W+abL2SeIKyOAZzKJ2d1vo7bOBMRSxjSyPm4/U5+88iiwUmLah+JwbdOGCOur/jMGtfXKyY3EEY2sFnoUQYdlMYNzP+6j6MKQ5eqfqO+0D96FWmFxeEZXiYQhsWCEPMu/msnMp6YrtTgqfux7m0yjCBhiPqaXN/Jz7jrC2FkA5uBnrsURpldmtaZc34Cdqhb7DKtSoGscM/SPBbOiI8EwhAM+Fo131xJIuOJKQzxC3qPa+PJvZX1CtUPenR1Jq6jF4boNQbHTa6vd47CXV8IIxvYDO6WsME3AHkBwgBAA4QBgAYIAwANdy4MAIoAhAGABggDAA0QBgAaIAwANEAYAGhYLGFc/5Nau9/RqvEtlUrf0upH39P+2b/lSQCiszjCuHhPVSkIf6oe/SoLARCNBRHGb9TZFiI4p8bJr/KV7N9pdPkPaqxzvvEDnaZ+rxwsEwHC6NP+unxL07d4fvSyQWulEq190Uu/hiErrAsyuWdYe/yzzHDx6i0ZfK7x8neZAcB0gnuMi0OqsADEUsrxuoebHjXucd560xu6Zt5cvue6fksbz36RGS7kucoRxhogOqGu1PCoai+MqTwX0hhR7wsRAmbTs8ouHr/QyV//Qn/6PCT97TtZNg4/UVOML4zvqX3+m8wbcUfCg/Gdc7vHMB79JPMBmM6UMYZYm+ysKGs9Fy7UZFiWeMxKGL+ziL+3BaAbfIu09iSTkAdgSZg++FbuE/ccxlZ4pO358l8aHP9ANTHYFmLgHmRz90fqfvMjXCkQm+nC4LFGVcU9KmKIRzn4br6WxwBEYIowhnQoQkaKwfarfTsOUnkvzdOoWblSQfzK9Re9x1tXzFgAphMijBH1H4lIFk4s1snjJNyRMG7+Q8NX76nxieNWVb+GGwXiESgMFSnPM1+hxhtGlTp5W4HHLpN7sK3S5pOfU/RwYFnRC+Oy44wr7jUm5ivUBJ+x5ZrfyAMuYaysn1Nt7z31LiEJkIzpg28AlhAIAwANEAYAGiAMADRAGABogDAA0ABhAKABwgBAA4QBknNxSLXtDCZ6LzpU28nXhDGEkSFBm7YsJDc9aq7LNyDEXuIpGL1t229a5OltCggjEhb1ntRoYyd8PcryCMP11nVGS5ydd/PSLoTLDggjEum2El40nG3LytR8neW7aGrp9GQAjnkAYUQCwhgzOqWGcHsenGb/1vJ1l0xx7YczuHZM9MI433dC5DzR7Sg9pPbHbABT9pu+U+yNIcWdZkidnVUySiu0yXUf3fSpdV9s5LhCta+9XbT1rkut3cp4c0jjww2q7XVo4HIN1IaOYWlyY0iTutcW9Q9M2rSvbdDqZ/vUu5aFCo51XOPftEb75zJjgnShl/qPRa9Ro86c2yugx+AfJ9Zd6Iz/XZs2+cdtHuToGYIUhrnr3iLYpPoDEchBHhvsD8vibMLUHJfzJmO3O94RNpkwKlTb9u6qaqciLgueQG7cP+2mmCb0krwpmy8m9uW9UwJdqeHBJv9BJ+8Mw2cbnJ9U0TNawSe3ElarC4fPlUE7dy3nLuR2cbgn2WlR9611e+e67lNbDChLVepM+EtxXCmRuIc66JMlntaMuIeVm93nwXdOh7yh8B1/GolDL7GrVhffsTffxcjBY4zrDtW4goangvxH/kMaH3C2wlB+r7rTl6Ur6By7haEnuFwcYUw+WVH1Kfwe25dOT+AY+zSShl5ybGxaW8+akMH3iE4f8g9zuyB2NxfmX84JKQxleH5D1Bm89aZDze0NWlURUMYprTAmP79wwjiKaLKJQi9Fa+tZEyIMlsZZg7tDgxpnTv9guyR59JVjCkOtZ3eE4E8QRiBSGBvPIlpAotBLQzr8dHpbz5pQYahBuOM6Of+vHacZFM3WlYomDDmA5PFI4+TK4xL6BXSLFMaUQefCC0ONMSI9qk0aeol7GfEduR1jSJxBOA+2j5tkGI2U4fTzIAxp5Hzcfid/zMiiwUmLah85PvGkMNitfCA+s0b1F14xuUkkjJF8pGysTjxSzh8Rn0pxCyUOvZT3p1JjZPdpGIZvIJ4jYrpSg6fux7q3SfxGvTDYJF6Y9lMW/2fcxp5IGLLudpqz+xCF6fMYLAPpqiYJvZTzeQw3FnW2xR8uh4NuRUxhiN/Ue1wbT+6trFeoftCjqzNxHb0wxF1vwL1mbd07R5FaGIXqMRg18+2a7/GQJvTSzSnVcz3z7UHOdC/EBBXIAmeeaI0aL7M0X+lu5SSYX7gwxKSXPYubdSOAYsMDa/thxGSvkJRCvF2run6V0gVyBomR4zv33yIw/dG0X9XRnvOnOGWDxj3yUayx1fa8X5YIea082VmoMGzf+2ig9yXB7MmzMARiBd9OJ72LLa6TxUrADIkwxgBg+YAwANAAYQCgAcIAQAOEAYAGCAMADRAGABogDAA0QBgxuPr7V/Snz7+ik3/JDLCwBArD/1qIN7kjbuSBdCFbopKZMIoWnmgJSSaM9RYNZLnccCFfn7ifIGRLRLLrMQoWnmgJieVK2SFRjGqKMDCz3QA/cciWiGTpSs0mPBHIisjCcF4LjrA0MZTZCsNZepkkZEsAb470dfSkhEKZSXgikBXRhGGHfM/Pu/KhJArZEsAshcGmX5jwREtIBGE40R4KsyZDvttvj4UyXnWY9VOpwoQnWkKmCIP99L1yhht6zNqVShqyJRrZP67NOjwRyIpQYdiD2Qw3B5mtMFKEbIlI9sLgNs40PBHIikBhjF6HResLiHgxR9KEbInKLIRRiPBES0igMMIn+HImjDQhW+ZOAcITLSERBt9gtiA8UR6BMOYJwhPlFghjDiA8Uf6BMOYAwhPlHwgDAA0QBgAaIAwANEAYAGiYqzD6j4kMrkHtWGbMk6zip150qLaT18lEEJW5CqPJ314S6T7Ndych+7V6OTsu9uZOwehtW0YBhziKTC56DPNEZmRA7wnRxk4cobneyF3QvR5AfOYqjFlwyL1PnB7ImVMoU/N1llNsalntZHAGUAyWWxhqP7lI2/PG5LpLprg2lqkWkkBh9Pb4JJ8VL0L32OUpf+Acr37Gx/6F+pdEFT5nv3FrEbV3iVb4mL0Jqj61s26RZe2xhUyVI3nOh10Hvkaf/f7TkDpc8efd19Ml3dvAUXYgDX/L2LUsVUNediAF8WGT0aOEUd3yGpid1vmP7r4NSmM3v+TybMj+8p6nTnGFwec3P/GWt9PHYnTgkEwY0fasDhXGtDBCOdmzGsSHTUaPMkqRTDY8Szyt4dR96OTVv3HK2biM3WAjPuVjG/av7XwWl9a1kZ+bJoxxHUQmC7It3CXO0/nv0V2pHjX5IqUv4i8OihxGiF21uvgOLEAqHGxeepRRNl7KDIU0ZuORPBaoPBaA/zlMqKFGFEbVd171EDr3KLIw5Mo5JwZVdOKFEXLC4RRhY3vghc1LjzJK3Wbw9vwDnx8zxcADiSiMyQ3lnfxMhHEUw2RjhxG64vpAGEWEzUvPsghj41lUI08SRog/8ymEUUTYvPQECuOceEBJbFDyWJA3Ydyj0AG1gxxjRHpUmzSMUI8a4jswxigcbF56lFG238gMxmJRmOsy3x0PNkfCOH3gnKu/sMfpIUR7KiVIHEYIT6UKC5uQHmWUuuQfDMcRhjLqoOQ29iTCsFgQ4jUT9zUDy0aYx0gTRgjzGMWFTUaPThhldlNaZ7KAmxwJQzA4JqrJnk133TFq5nu3652EdBE+wRcijJtTqmPmu7CwyegJMspFY/hcGH7WUTpkFMSMAr2Bu2fphWE/ORKPVDXB2pKCt2uLD4QhkBHSja02DdKKQ14LIXGKDYShECv4djoxH8dqyGolIJgrgcIAYJmBMADQAGEAoAHCAEADhAGABggDAA0QBgAaIAwANEAYAExA9H/53ojmmf/IZQAAAABJRU5ErkJggg==",
+          "type": "img"
+        },
+        {
+          "children": [
+            {
+              "text": "Output: 12.0"
+            }
+          ],
+          "id": "585352008",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Find the missing element in the code."
+            }
+          ],
+          "id": "585352008",
+          "type": "p"
+        }
+      ],
+      "id": "4079968556"
+    }
+  },
+  "id": "1111",
+  "objectives": {
+    "1": [
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1262",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

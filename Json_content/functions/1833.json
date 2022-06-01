@@ -1,0 +1,451 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What would be the output of if following lines of code are executed using a python interpreter?"
+                    }
+                  ],
+                  "id": "2231072415",
+                  "type": "p"
+                }
+              ],
+              "id": "3193129552"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "int( ) converts passed argument into an integer."
+                    }
+                  ],
+                  "id": "3453120509",
+                  "type": "p"
+                }
+              ],
+              "id": "981542546"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "int(216.345) will result in 216 removing the fractional part of the argument."
+                    }
+                  ],
+                  "id": "62338408",
+                  "type": "p"
+                }
+              ],
+              "id": "1116752454"
+            }
+          ],
+          "id": "3819827083",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent."
+                      }
+                    ],
+                    "id": "3194159705",
+                    "type": "p"
+                  }
+                ],
+                "id": "2497176498"
+              },
+              "id": "1832444656",
+              "rule": "input contains {15}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "527237472",
+                    "type": "p"
+                  }
+                ],
+                "id": "2614057628"
+              },
+              "id": "1881598518",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What would be the output of if following lines of code are executed using a python interpreter?"
+                    }
+                  ],
+                  "id": "4024353085",
+                  "type": "p"
+                }
+              ],
+              "id": "2209962005"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "According to the rules of math, first the expression inside paranthesis is evaluated and next the outer expression is computed."
+                    }
+                  ],
+                  "id": "1784928527",
+                  "type": "p"
+                }
+              ],
+              "id": "1706729511"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "In the expression (6*6)+5, 6*6 is evaluated first resulting in 36+5, which finally sums to 41."
+                    }
+                  ],
+                  "id": "1963491652",
+                  "type": "p"
+                }
+              ],
+              "id": "1586712659"
+            }
+          ],
+          "id": "2671285761",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Wow. you are going on right track."
+                      }
+                    ],
+                    "id": "1050199489",
+                    "type": "p"
+                  }
+                ],
+                "id": "2267470898"
+              },
+              "id": "862659689",
+              "rule": "input contains {answer}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Do not worry. Re-read the question and try taking help from hints . "
+                      }
+                    ],
+                    "id": "1469748952",
+                    "type": "p"
+                  }
+                ],
+                "id": "24040602"
+              },
+              "id": "3933476349",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What would be the output of if following lines of code are executed using a python interpreter?"
+                    }
+                  ],
+                  "id": "1212533227",
+                  "type": "p"
+                }
+              ],
+              "id": "1947166538"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "There are two functions in the above question."
+                    }
+                  ],
+                  "id": "2367542708",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "abs() - returns the absolute value "
+                        }
+                      ],
+                      "id": "3453120509",
+                      "type": "li"
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "round() - rounds the value of passed argument to specified decimal places"
+                        }
+                      ],
+                      "id": "3453120509",
+                      "type": "li"
+                    }
+                  ],
+                  "type": "ol"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3537571001",
+                  "type": "p"
+                }
+              ],
+              "id": "2924062008"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "abs(-1) results in 1 and round(86.23879,1) rounds it to 86.2"
+                    }
+                  ],
+                  "id": "1711730581",
+                  "type": "p"
+                }
+              ],
+              "id": "514392856"
+            }
+          ],
+          "id": "2972348444",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Congratulations. "
+                      }
+                    ],
+                    "id": "121479099",
+                    "type": "p"
+                  }
+                ],
+                "id": "1866748790"
+              },
+              "id": "424848924",
+              "rule": "input contains {20.0}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "3143147235",
+                    "type": "p"
+                  }
+                ],
+                "id": "3281807142"
+              },
+              "id": "2074746799",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Don't just copy and run this code to find the answer.Try to determine the answer by yourself.int(15.11) = print(5 + (3 * 2)) = round(abs(-19.86), 0) = ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "4169167811",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "2663470781",
+        "inputType": "text",
+        "partId": "3819827083"
+      },
+      {
+        "choiceIds": [
+          "3437530382",
+          "2162693369"
+        ],
+        "id": "4187970258",
+        "inputType": "text",
+        "partId": "2671285761"
+      },
+      {
+        "id": "1572716560",
+        "inputType": "text",
+        "partId": "2972348444"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Don't just copy and run this code to find the answer."
+            }
+          ],
+          "id": "356978971",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Try to determine the answer by yourself."
+            }
+          ],
+          "id": "356978971",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "int(15.11) = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2663470781",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "356978971",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(5 + (3 * 2)) = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "4187970258",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "356978971",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "round(abs(-19.86), 0) = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1572716560",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "356978971",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "356978971",
+          "type": "p"
+        }
+      ],
+      "id": "3721455721"
+    }
+  },
+  "id": "1833",
+  "objectives": {
+    "2671285761": [
+      "962"
+    ],
+    "2972348444": [
+      "962"
+    ],
+    "3819827083": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1638",
+    "1834"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

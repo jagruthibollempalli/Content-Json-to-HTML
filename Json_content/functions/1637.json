@@ -1,0 +1,136 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2669984728",
+                  "type": "p"
+                }
+              ],
+              "id": "3878895667"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "845285494",
+                    "type": "p"
+                  }
+                ],
+                "id": "3418830817"
+              },
+              "id": "1773880613",
+              "rule": "input contains {indentation }",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3279914969",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "indentation "
+                      }
+                    ],
+                    "id": "3279914969",
+                    "type": "p"
+                  }
+                ],
+                "id": "1567326039"
+              },
+              "id": "2253911742",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "When the stops, the function is done ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "542480642",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "219639369",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "When the "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "219639369",
+              "type": "input_ref"
+            },
+            {
+              "text": "stops, the function is done "
+            }
+          ],
+          "id": "451245000",
+          "type": "p"
+        }
+      ],
+      "id": "1968400413"
+    }
+  },
+  "id": "1637",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1617",
+    "1638",
+    "1613"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,189 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "3279510296",
+                  "type": "p"
+                }
+              ],
+              "id": "2359431069"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent "
+                      }
+                    ],
+                    "id": "559722576",
+                    "type": "p"
+                  }
+                ],
+                "id": "1442969994"
+              },
+              "id": "473991847",
+              "rule": "input contains {1.57}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about libraries in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function calls"
+                      },
+                      {
+                        "text": " module."
+                      }
+                    ],
+                    "id": "3071974188",
+                    "type": "p"
+                  }
+                ],
+                "id": "48848347"
+              },
+              "id": "1422596423",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What does each of the following expressions evaluate to?Hint: what is the returned value of each function call?Import mathprint(round(math.radians(90),2)) .",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1702651744",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "3081315890",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What does each of the following expressions evaluate to?"
+            }
+          ],
+          "id": "1051551733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Hint: what is the returned value of each function call?"
+            }
+          ],
+          "id": "1051551733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1051551733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "Import math"
+            }
+          ],
+          "id": "1051551733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "print(round(math.radians(90),2))"
+            }
+          ],
+          "id": "1051551733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1051551733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": " "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "3081315890",
+              "type": "input_ref"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "id": "1051551733",
+          "type": "p"
+        }
+      ],
+      "id": "1690418426"
+    }
+  },
+  "id": "1869",
+  "objectives": {
+    "1": [
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1624"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

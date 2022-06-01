@@ -1,0 +1,349 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "276848091",
+                  "type": "p"
+                }
+              ],
+              "id": "1447197889"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done! you solved it right."
+                      }
+                    ],
+                    "id": "2647644780",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "There is a print statement. Operations on the variables are done and displayed on the console."
+                      }
+                    ],
+                    "id": "935903108",
+                    "type": "p"
+                  }
+                ],
+                "id": "2324227137"
+              },
+              "id": "78115413",
+              "rule": "input = {93}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Never mind, Let's go learn pre-built functions in the upcoming course."
+                      }
+                    ],
+                    "id": "1956174568",
+                    "type": "p"
+                  }
+                ],
+                "id": "449648580"
+              },
+              "id": "3462430788",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "15019637",
+                  "type": "p"
+                }
+              ],
+              "id": "3270726079"
+            }
+          ],
+          "id": "79727070",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done! you solved it right."
+                      }
+                    ],
+                    "id": "2593763576",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "There is a print statement. Operations on the variables are done and displayed on the console."
+                      }
+                    ],
+                    "id": "935903108",
+                    "type": "p"
+                  }
+                ],
+                "id": "3922998515"
+              },
+              "id": "3197021708",
+              "rule": "input = {0}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Never mind, Let's go learn pre-built functions in the upcoming course."
+                      }
+                    ],
+                    "id": "350153412",
+                    "type": "p"
+                  }
+                ],
+                "id": "786564258"
+              },
+              "id": "2672845878",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "806836202",
+                  "type": "p"
+                }
+              ],
+              "id": "2704895764"
+            }
+          ],
+          "id": "3561108497",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done! you solved it right."
+                      }
+                    ],
+                    "id": "1184382743",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "There is a print statement. Operations on the variables are done and displayed on the console."
+                      }
+                    ],
+                    "id": "935903108",
+                    "type": "p"
+                  }
+                ],
+                "id": "2354588758"
+              },
+              "id": "995220106",
+              "rule": "input = {264}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Never mind, Let's go learn pre-built functions in the upcoming course."
+                      }
+                    ],
+                    "id": "4188542270",
+                    "type": "p"
+                  }
+                ],
+                "id": "3806659711"
+              },
+              "id": "689088377",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "what the following lines would print to the consolemarks= 88print(marks + 5) print(marks % 4)print(marks * 3)",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2095859165",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "703049977",
+        "inputType": "numeric",
+        "partId": "1"
+      },
+      {
+        "id": "2970961477",
+        "inputType": "numeric",
+        "partId": "79727070"
+      },
+      {
+        "id": "2291747099",
+        "inputType": "numeric",
+        "partId": "3561108497"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "what the following lines would print to the console"
+            }
+          ],
+          "id": "4014996940",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "marks= 88"
+            }
+          ],
+          "id": "4014996940",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(marks + 5) "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "703049977",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "4014996940",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(marks % 4)"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2970961477",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "4014996940",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(marks * 3)"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2291747099",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "4014996940",
+          "type": "p"
+        }
+      ],
+      "id": "4258237842"
+    }
+  },
+  "id": "1990",
+  "objectives": {
+    "1": [
+      "962"
+    ],
+    "3561108497": [
+      "962"
+    ],
+    "79727070": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1617"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

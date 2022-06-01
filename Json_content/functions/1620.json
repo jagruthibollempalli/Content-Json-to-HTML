@@ -1,0 +1,140 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3724600057",
+                  "type": "p"
+                }
+              ],
+              "id": "266148301"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2175057895",
+                  "type": "p"
+                }
+              ],
+              "id": "2585071389"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2120165404",
+                  "type": "p"
+                }
+              ],
+              "id": "1731171093"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "193812566",
+                    "type": "p"
+                  }
+                ],
+                "id": "1653345591"
+              },
+              "id": "3981698256",
+              "rule": "input contains {math.log(20)}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3413516376",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "math.log(20)"
+                      }
+                    ],
+                    "id": "3413516376",
+                    "type": "p"
+                  }
+                ],
+                "id": "766438289"
+              },
+              "id": "1238125498",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "A function used to find the logarithmic value of 20",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "A function used to find the logarithmic value of 20"
+            }
+          ],
+          "id": "3291716382",
+          "type": "p"
+        }
+      ],
+      "id": "3569518472"
+    }
+  },
+  "id": "1620",
+  "objectives": {
+    "1": [
+      "963",
+      "962",
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1617",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

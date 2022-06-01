@@ -1,0 +1,118 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Start with the BMI formula"
+                    }
+                  ],
+                  "id": "1007372044",
+                  "type": "p"
+                }
+              ],
+              "id": "3976507967"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "-"
+                    }
+                  ],
+                  "id": "2521372433",
+                  "type": "p"
+                }
+              ],
+              "id": "3420930145"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "-"
+                    }
+                  ],
+                  "id": "685827061",
+                  "type": "p"
+                }
+              ],
+              "id": "565580097"
+            }
+          ],
+          "id": "1",
+          "responses": [],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Write a program to create a function that takes five arguments, name, height, gender, weight, and age. Calculate the BMI value and print it?"
+    },
+    "feedback": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Incorrect"
+              }
+            ],
+            "id": "103829474",
+            "type": "p"
+          }
+        ],
+        "id": "397983792"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Correct"
+              }
+            ],
+            "id": "2715373841",
+            "type": "p"
+          }
+        ],
+        "id": "222518046"
+      }
+    ],
+    "isExample": false,
+    "regex": "",
+    "resourceURLs": [],
+    "solutionCode": "Sample Solution Code",
+    "starterCode": "",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Write a program to create a function that takes five arguments, name, height, gender, weight, and age. Calculate the BMI value and print it?"
+            }
+          ],
+          "id": "2496397159",
+          "type": "p"
+        }
+      ],
+      "id": "4014760993"
+    },
+    "tolerance": 1
+  },
+  "id": "883",
+  "objectives": {
+    "1": []
+  },
+  "originalFile": "",
+  "subType": "oli_image_coding",
+  "tags": [],
+  "title": "Image Coding",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

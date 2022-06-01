@@ -1,0 +1,241 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What would be the output of if following lines of code are executed using a python interpreter?"
+                    }
+                  ],
+                  "id": "4238404415",
+                  "type": "p"
+                }
+              ],
+              "id": "3857160619"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "There are 4 functions compounded in the above question."
+                    }
+                  ],
+                  "id": "3821535006",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "abs() - returns the absolute value of the argument."
+                        }
+                      ],
+                      "id": "3821535006",
+                      "type": "li"
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "pow() - returns the power of first argument to the second argument "
+                        }
+                      ],
+                      "id": "3821535006",
+                      "type": "li"
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "round() - rounds the argument to specified decimal places."
+                        }
+                      ],
+                      "id": "3821535006",
+                      "type": "li"
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "print() - prints the value of passed arguments to the console. "
+                        }
+                      ],
+                      "id": "3821535006",
+                      "type": "li"
+                    }
+                  ],
+                  "type": "ol"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2662716713",
+                  "type": "p"
+                }
+              ],
+              "id": "2723659547"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "abs(-1) will return 1."
+                    }
+                  ],
+                  "id": "881143836",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "pow(3,2) will return 9."
+                    }
+                  ],
+                  "id": "881143836",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "round(67.890654 , 2) will return 67.89, rounding to two decimal places."
+                    }
+                  ],
+                  "id": "881143836",
+                  "type": "p"
+                }
+              ],
+              "id": "1620239136"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done."
+                      }
+                    ],
+                    "id": "3496198184",
+                    "type": "p"
+                  }
+                ],
+                "id": "2804574781"
+              },
+              "id": "951682853",
+              "rule": "input contains {3.46}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "3506560359",
+                    "type": "p"
+                  }
+                ],
+                "id": "3825125342"
+              },
+              "id": "2117969468",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Try to determine the answer by yourself.print(round(pow(abs(-12), 1/2), 2)).",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1776886659",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "116292315",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Try to determine the answer by yourself."
+            }
+          ],
+          "id": "2156151533",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "print(round(pow(abs(-12), 1/2), 2))"
+            }
+          ],
+          "id": "2156151533",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "116292315",
+              "type": "input_ref"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "id": "2156151533",
+          "type": "p"
+        }
+      ],
+      "id": "2116836327"
+    }
+  },
+  "id": "1840",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1638",
+    "1834"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

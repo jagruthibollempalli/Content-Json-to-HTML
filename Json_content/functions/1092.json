@@ -1,0 +1,30 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "2100731814",
+            "type": "p"
+          }
+        ],
+        "id": "2765938413",
+        "purpose": "none",
+        "type": "content"
+      }
+    ]
+  },
+  "id": "1092",
+  "isGraded": true,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "New Assessment",
+  "type": "Page",
+  "unresolvedReferences": []
+}

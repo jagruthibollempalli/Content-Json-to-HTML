@@ -1,0 +1,42 @@
+{
+  "content": {
+    "model": [
+      {
+        "activity_id": 894,
+        "children": [],
+        "id": "1713871565",
+        "purpose": "none",
+        "type": "activity-reference"
+      },
+      {
+        "activity_id": 892,
+        "children": [],
+        "id": "1319122005",
+        "purpose": "none",
+        "type": "activity-reference"
+      },
+      {
+        "activity_id": 883,
+        "children": [],
+        "id": "3241927505",
+        "purpose": "none",
+        "type": "activity-reference"
+      },
+      {
+        "activity_id": 884,
+        "children": [],
+        "id": "2594048763",
+        "purpose": "none",
+        "type": "activity-reference"
+      }
+    ]
+  },
+  "id": "879",
+  "isGraded": false,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Test",
+  "type": "Page",
+  "unresolvedReferences": []
+}

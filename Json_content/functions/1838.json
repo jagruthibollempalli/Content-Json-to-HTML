@@ -1,0 +1,338 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2432531367",
+                  "type": "p"
+                }
+              ],
+              "id": "2544125112"
+            }
+          ],
+          "id": "1569380503",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done!"
+                      }
+                    ],
+                    "id": "1295709497",
+                    "type": "p"
+                  }
+                ],
+                "id": "1345273576"
+              },
+              "id": "1049803879",
+              "rule": "input contains {67}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "you can do better!!"
+                      }
+                    ],
+                    "id": "576125034",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about pre-built function in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function calls"
+                      },
+                      {
+                        "text": " module"
+                      }
+                    ],
+                    "id": "576125034",
+                    "type": "p"
+                  }
+                ],
+                "id": "2458891128"
+              },
+              "id": "333726645",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2443245878",
+                  "type": "p"
+                }
+              ],
+              "id": "3894468846"
+            }
+          ],
+          "id": "1120771989",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done !"
+                      }
+                    ],
+                    "id": "1971336427",
+                    "type": "p"
+                  }
+                ],
+                "id": "1651783873"
+              },
+              "id": "4782070",
+              "rule": "input contains {8}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about pre-built function in Function calls module"
+                      }
+                    ],
+                    "id": "2586850605",
+                    "type": "p"
+                  }
+                ],
+                "id": "803355332"
+              },
+              "id": "283204025",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2193727620",
+                  "type": "p"
+                }
+              ],
+              "id": "4158483490"
+            }
+          ],
+          "id": "825350796",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "you just solved a difficult question. well done ! "
+                      }
+                    ],
+                    "id": "450909332",
+                    "type": "p"
+                  }
+                ],
+                "id": "2997409623"
+              },
+              "id": "3187789865",
+              "rule": "input contains {157.86}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about pre-built function in Function calls module"
+                      }
+                    ],
+                    "id": "1587976535",
+                    "type": "p"
+                  }
+                ],
+                "id": "4181634121"
+              },
+              "id": "3512121963",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Don't just copy and run this code to find the answer.Try to determine the answer by yourself.int(67.0124) = print(35 - (3 * 9)) = round(abs(-157.8623), 2) = .",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "83092681",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "2447969199",
+        "inputType": "text",
+        "partId": "1569380503"
+      },
+      {
+        "id": "1290913820",
+        "inputType": "text",
+        "partId": "1120771989"
+      },
+      {
+        "id": "2631324887",
+        "inputType": "text",
+        "partId": "825350796"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Don't just copy and run this code to find the answer."
+            }
+          ],
+          "id": "3943884068",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Try to determine the answer by yourself."
+            }
+          ],
+          "id": "3943884068",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "int(67.0124) = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2447969199",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "3943884068",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(35 - (3 * 9)) = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1290913820",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "3943884068",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "round(abs(-157.8623), 2) = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2631324887",
+              "type": "input_ref"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "id": "3943884068",
+          "type": "p"
+        }
+      ],
+      "id": "266211690"
+    }
+  },
+  "id": "1838",
+  "objectives": {
+    "1120771989": [
+      "962"
+    ],
+    "1569380503": [
+      "962"
+    ],
+    "825350796": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1624"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

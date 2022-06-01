@@ -1,0 +1,188 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "-"
+                    }
+                  ],
+                  "id": "2547070380",
+                  "type": "p"
+                }
+              ],
+              "id": "2433567307"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "-"
+                    }
+                  ],
+                  "id": "3908550783",
+                  "type": "p"
+                }
+              ],
+              "id": "3344499855"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "-"
+                    }
+                  ],
+                  "id": "210079099",
+                  "type": "p"
+                }
+              ],
+              "id": "2307960356"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Correct"
+                      }
+                    ],
+                    "id": "3061677262",
+                    "type": "p"
+                  }
+                ],
+                "id": "3873898009"
+              },
+              "id": "3630408869",
+              "rule": "input like {2802363020}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "846660329",
+                    "type": "p"
+                  }
+                ],
+                "id": "2804363901"
+              },
+              "id": "4115634589",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Choose the correct built-in functions from the following",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1011194162",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Print()"
+              }
+            ],
+            "id": "43269066",
+            "type": "p"
+          }
+        ],
+        "id": "678641845"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "length()"
+              }
+            ],
+            "id": "3884136498",
+            "type": "p"
+          }
+        ],
+        "id": "4183817918"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "help()"
+              }
+            ],
+            "id": "320363465",
+            "type": "p"
+          }
+        ],
+        "id": "2802363020"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "integer()"
+              }
+            ],
+            "id": "2274520589",
+            "type": "p"
+          }
+        ],
+        "id": "1597346596"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Choose the correct built-in functions from the following"
+            }
+          ],
+          "id": "2942031083",
+          "type": "p"
+        }
+      ],
+      "id": "4235131901"
+    }
+  },
+  "id": "894",
+  "objectives": {
+    "1": []
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

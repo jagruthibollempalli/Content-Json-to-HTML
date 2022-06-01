@@ -1,0 +1,271 @@
+{
+  "content": {
+    "authoring": {
+      "correct": [
+        [
+          "1622626083",
+          "1332768571",
+          "927043589"
+        ],
+        "2679501737"
+      ],
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2739255407",
+                  "type": "p"
+                }
+              ],
+              "id": "1805923247"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "400369616",
+                  "type": "p"
+                }
+              ],
+              "id": "953951047"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "3358358429",
+                  "type": "p"
+                }
+              ],
+              "id": "1017150528"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Good Job !!"
+                      }
+                    ],
+                    "id": "191682254",
+                    "type": "p"
+                  }
+                ],
+                "id": "3408423279"
+              },
+              "id": "2679501737",
+              "rule": "(!(input like {1618044635})) && ((!(input like {1847367413})) && ((!(input like {3763164493})) && (input like {927043589} && (input like {1332768571} && (input like {1622626083})))))",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about pre-built function in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function calls"
+                      },
+                      {
+                        "text": " module"
+                      }
+                    ],
+                    "id": "750648959",
+                    "type": "p"
+                  }
+                ],
+                "id": "3874376350"
+              },
+              "id": "522563094",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Check all that are applicable from the options below, what the following code would print to the console.value= 51print(value+ 5)print(value // 4)print(value * 3)",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2588058837",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "56"
+              }
+            ],
+            "id": "204767402",
+            "type": "p"
+          }
+        ],
+        "id": "1622626083"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "12"
+              }
+            ],
+            "id": "3970192898",
+            "type": "p"
+          }
+        ],
+        "id": "1332768571"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "153"
+              }
+            ],
+            "id": "2275820936",
+            "type": "p"
+          }
+        ],
+        "id": "927043589"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "55"
+              }
+            ],
+            "id": "995231579",
+            "type": "p"
+          }
+        ],
+        "id": "3763164493"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "13"
+              }
+            ],
+            "id": "1833095431",
+            "type": "p"
+          }
+        ],
+        "id": "1847367413"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "154"
+              }
+            ],
+            "id": "4210060769",
+            "type": "p"
+          }
+        ],
+        "id": "1618044635"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Check all that are applicable from the options below, what the following code would print to the console."
+            }
+          ],
+          "id": "1594747762",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "value= 51"
+            }
+          ],
+          "id": "1594747762",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(value+ 5)"
+            }
+          ],
+          "id": "133365127",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(value // 4)"
+            }
+          ],
+          "id": "133365127",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(value * 3)"
+            }
+          ],
+          "id": "133365127",
+          "type": "p"
+        }
+      ],
+      "id": "3797073710"
+    }
+  },
+  "id": "1850",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_check_all_that_apply",
+  "tags": [
+    "1836"
+  ],
+  "title": "Check All That Apply",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

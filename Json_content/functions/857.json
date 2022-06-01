@@ -1,0 +1,779 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Function Definitions Run on Abstract Input"
+              }
+            ],
+            "id": "3422096312",
+            "type": "h2"
+          },
+          {
+            "children": [
+              {
+                "text": "Now that we have all the individual components of functions, we can write new function definitions ourselves. To write a function, you need to determine what algorithm you want to implement. You'll convert that algorithm into code that runs on abstract input."
+              }
+            ],
+            "id": "962243847",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Let's start with a simple function that has no explicit input or output; instead, it has a side effect (printed lines)."
+              }
+            ],
+            "id": "962243847",
+            "type": "p"
+          },
+          {
+            "caption": "Simple function to print hello world",
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "def helloWorld():"
+                  }
+                ],
+                "id": "2879293099",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " print(\"Hello World!\")"
+                  }
+                ],
+                "id": "2879293099",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " print(\"How are you?\")"
+                  }
+                ],
+                "id": "2879293099",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "helloWorld()"
+                  }
+                ],
+                "id": "2879293099",
+                "type": "code_line"
+              }
+            ],
+            "id": "1972793178",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "code": true,
+                "text": ""
+              }
+            ],
+            "id": "2917963783",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "code": true,
+                    "text": "def"
+                  },
+                  {
+                    "text": " is how Python knows the following code is a function definition"
+                  }
+                ],
+                "id": "2917963783",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "code": true,
+                    "text": "helloWorld"
+                  },
+                  {
+                    "text": " is the name of the function. This is what we'll call it."
+                  }
+                ],
+                "id": "2917963783",
+                "type": "li"
+              }
+            ],
+            "type": "ul"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "The "
+                  },
+                  {
+                    "strong": true,
+                    "text": "colon "
+                  },
+                  {
+                    "text": "at the end of the first line, and the "
+                  },
+                  {
+                    "strong": true,
+                    "text": "indentation "
+                  },
+                  {
+                    "text": "at the beginning of the second and third, tell Python that we're in the "
+                  },
+                  {
+                    "strong": true,
+                    "text": "body "
+                  },
+                  {
+                    "text": "of the function."
+                  }
+                ],
+                "id": "2917963783",
+                "type": "li"
+              },
+              {
+                "children": [
+                  {
+                    "text": "The body holds the algorithm. When the indentation stops, the function is done."
+                  }
+                ],
+                "id": "2917963783",
+                "type": "li"
+              }
+            ],
+            "type": "ul"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "In this example, the last line "
+                  },
+                  {
+                    "strong": true,
+                    "text": "calls "
+                  },
+                  {
+                    "text": "the function we've written."
+                  }
+                ],
+                "id": "2917963783",
+                "type": "li"
+              }
+            ],
+            "type": "ul"
+          },
+          {
+            "children": [
+              {
+                "text": "Parameters are Abstracted Arguments"
+              }
+            ],
+            "id": "3763222752",
+            "type": "h2"
+          },
+          {
+            "children": [
+              {
+                "text": "To add input to the function definition, add parameters inside the parentheses next to the name. These parameters are variables that are not given initial values. Their initial values will be provided by the arguments given each time the function is called."
+              }
+            ],
+            "id": "3708607954",
+            "type": "p"
+          },
+          {
+            "caption": "Code explaining the Parameters are Abstracted Arguments",
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "def hello(name): "
+                  }
+                ],
+                "id": "1796161394",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " print(\"Hello, \" + name + \"!\")"
+                  }
+                ],
+                "id": "1796161394",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " print(\"How are you?\")"
+                  }
+                ],
+                "id": "1796161394",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "id": "1796161394",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "hello(\"Stella\")"
+                  }
+                ],
+                "id": "1796161394",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "hello(\"Dippy\")"
+                  }
+                ],
+                "id": "1796161394",
+                "type": "code_line"
+              }
+            ],
+            "id": "3959156624",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": "Return Provides the Returned Value Output"
+              }
+            ],
+            "id": "555683571",
+            "type": "h2"
+          },
+          {
+            "children": [
+              {
+                "text": "To make our function have a non-"
+              },
+              {
+                "code": true,
+                "text": "None "
+              },
+              {
+                "text": "output, we need to have a "
+              },
+              {
+                "strong": true,
+                "text": "return statement"
+              },
+              {
+                "text": ". This statement specifies the value that should be substituted for the function call when the function is called on a specific input."
+              }
+            ],
+            "id": "756524067",
+            "type": "p"
+          },
+          {
+            "caption": "",
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "def makeHello(name):"
+                  }
+                ],
+                "id": "4069923765",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " return \"Hello, \" + name + \"! How are you?\""
+                  }
+                ],
+                "id": "4069923765",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "s = makeHello(\"Scotty\")"
+                  }
+                ],
+                "id": "4069923765",
+                "type": "code_line"
+              }
+            ],
+            "id": "1532890071",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": "As soon as Python returns a value, it exits the function. Python ignores any lines of code after a return statement."
+              }
+            ],
+            "id": "4222073000",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "strong": true,
+                "text": "Difference between print and return statements inside a function"
+              }
+            ],
+            "id": "4222073000",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "The "
+                  },
+                  {
+                    "strong": true,
+                    "text": "print() function"
+                  },
+                  {
+                    "text": " writes, i.e., \"prints\", a string or a number on the console. This is called a "
+                  },
+                  {
+                    "strong": true,
+                    "text": "side effect"
+                  },
+                  {
+                    "text": "."
+                  }
+                ],
+                "id": "4222073000",
+                "type": "li"
+              }
+            ],
+            "type": "ul"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "strong": true,
+                    "text": " Example"
+                  },
+                  {
+                    "text": ": But print(\"Hello\") has an observable side effect: it prints"
+                  },
+                  {
+                    "strong": true,
+                    "text": " \"Hello\""
+                  },
+                  {
+                    "text": " to the screen"
+                  }
+                ],
+                "id": "618916539",
+                "type": "li"
+              }
+            ],
+            "type": "ul"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "The "
+                  },
+                  {
+                    "strong": true,
+                    "text": "return statemen"
+                  },
+                  {
+                    "text": "t specifies the value that should be substituted for the function call when the function is called on a specific input. "
+                  }
+                ],
+                "id": "618916539",
+                "type": "li"
+              }
+            ],
+            "type": "ul"
+          },
+          {
+            "children": [
+              {
+                "text": "As soon as Python returns a value, it exits the function. Python ignores any lines of code after a return statement."
+              }
+            ],
+            "id": "618916539",
+            "type": "p"
+          }
+        ],
+        "id": "3258673915",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "count": 1,
+        "id": "1593132866",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  965
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1638,
+                  1834
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "didigetthis",
+        "type": "selection"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": "Control Flow"
+              }
+            ],
+            "id": "3914741338",
+            "type": "h2"
+          },
+          {
+            "children": [
+              {
+                "text": "Writing code with function definitions introduces a new concept to our programs – "
+              },
+              {
+                "strong": true,
+                "text": "control flow"
+              },
+              {
+                "text": ". This is the order in that statements are executed. we run a program. Before, all our programs ran sequentially from the first statement to the last. But with function definitions, Python will need to "
+              },
+              {
+                "strong": true,
+                "text": "redirect"
+              },
+              {
+                "text": " the control flow whenever we call a function that we've defined."
+              }
+            ],
+            "id": "2532719072",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Control flow is an incredibly useful tool, but it also makes it more difficult to read and comprehend a program. In particular, when you read code with a function definition, you have to keep in mind that that definition will not influence the program until it is called."
+              }
+            ],
+            "id": "3686500841",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Analyzing Functions"
+              }
+            ],
+            "id": "3686500841",
+            "type": "h2"
+          },
+          {
+            "children": [
+              {
+                "text": "When a function you've defined is called, you can figure out what it will evaluate to by tracing through the definition."
+              }
+            ],
+            "id": "4290369231",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "def addTip(cost, percentToTip):"
+                  }
+                ],
+                "id": "3822084472",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " return cost + cost * percentToTip"
+                  }
+                ],
+                "id": "3822084472",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "total = addTip(20.00, 0.17)"
+                  }
+                ],
+                "id": "3822084472",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "id": "3822084472",
+                "type": "code_line"
+              }
+            ],
+            "id": "1537011195",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": "For example, in this function call, we know the inputs "
+              },
+              {
+                "code": true,
+                "text": "(20.00 and 0.17)"
+              },
+              {
+                "text": ", so the output must be "
+              },
+              {
+                "code": true,
+                "text": "20.00 + 20.00 * 0.17"
+              },
+              {
+                "text": ", which is "
+              },
+              {
+                "code": true,
+                "text": "23.4"
+              },
+              {
+                "text": "."
+              }
+            ],
+            "id": "2964159854",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "text": "Note that this only works because we defined "
+              },
+              {
+                "code": true,
+                "text": "addTip "
+              },
+              {
+                "text": "it before we called it! Python will still execute all the statements in order."
+              }
+            ],
+            "id": "2964159854",
+            "type": "p"
+          }
+        ],
+        "id": "450092502",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "2580269167",
+            "type": "p"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "def distance(x1, y1, x2, y2):"
+                  }
+                ],
+                "id": "3265404198",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " xPart = (x2 - x1)**2"
+                  }
+                ],
+                "id": "914771499",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " yPart = (y2 - y1)**2"
+                  }
+                ],
+                "id": "914771499",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " print(\"Partial Work:\", xPart, yPart)"
+                  }
+                ],
+                "id": "914771499",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": " return (xPart + yPart) ** 0.5"
+                  }
+                ],
+                "id": "914771499",
+                "type": "code_line"
+              },
+              {
+                "children": [
+                  {
+                    "text": "result = distance(0, 0, 3, 4)"
+                  }
+                ],
+                "id": "914771499",
+                "type": "code_line"
+              }
+            ],
+            "id": "413497917",
+            "language": "python",
+            "type": "code"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "1910466842",
+            "type": "p"
+          }
+        ],
+        "id": "2059956852",
+        "purpose": "example",
+        "type": "content"
+      },
+      {
+        "activity_id": 970,
+        "children": [],
+        "id": "3667227628",
+        "purpose": "none",
+        "type": "activity-reference"
+      },
+      {
+        "count": 1,
+        "id": "3589639186",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  965
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1638,
+                  1834
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "didigetthis",
+        "type": "selection"
+      },
+      {
+        "count": 10,
+        "id": "2078460560",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  965
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1638,
+                  1834
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "learnbydoing",
+        "type": "selection"
+      }
+    ]
+  },
+  "id": "857",
+  "isGraded": false,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Function definitions",
+  "type": "Page",
+  "unresolvedReferences": []
+}

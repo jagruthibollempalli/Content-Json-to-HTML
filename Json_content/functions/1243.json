@@ -1,0 +1,136 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "In function call parentheses is used"
+                    }
+                  ],
+                  "id": "1105967053",
+                  "type": "p"
+                }
+              ],
+              "id": "625594261"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "3599430084",
+                    "type": "p"
+                  }
+                ],
+                "id": "2722142365"
+              },
+              "id": "748320469",
+              "rule": "input contains {print(\"Hello\")}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3208794680",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "The print() function prints the specified message, this is done using parentheses print(\"Hello\")"
+                      }
+                    ],
+                    "id": "3208794680",
+                    "type": "p"
+                  }
+                ],
+                "id": "7555642"
+              },
+              "id": "2999259948",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Call the print function to print \"Hello\".",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2382043407",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "3354142569",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Call the print function to print \"Hello\""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "3354142569",
+              "type": "input_ref"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "id": "1939425906",
+          "type": "p"
+        }
+      ],
+      "id": "2686067256"
+    }
+  },
+  "id": "1243",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1249",
+    "1612",
+    "1613"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

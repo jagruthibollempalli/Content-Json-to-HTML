@@ -1,0 +1,221 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Find the arguments in the print functions"
+                    }
+                  ],
+                  "id": "2959923495",
+                  "type": "p"
+                }
+              ],
+              "id": "3748634256"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The specific inputs we provide to a function are called arguments"
+                    }
+                  ],
+                  "id": "1955048858",
+                  "type": "p"
+                }
+              ],
+              "id": "4246273594"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "In the function call print(\"4\"), the argument is 4"
+                    }
+                  ],
+                  "id": "4255918246",
+                  "type": "p"
+                }
+              ],
+              "id": "1532143337"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2739664521",
+                    "type": "p"
+                  }
+                ],
+                "id": "3800160959"
+              },
+              "id": "2731661566",
+              "rule": "input like {1776488560}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3337440450",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "The specific inputs we provide to a function are called arguments."
+                      }
+                    ],
+                    "id": "3337440450",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Welcome to class I am your trainer"
+                      }
+                    ],
+                    "id": "3337440450",
+                    "type": "p"
+                  }
+                ],
+                "id": "772312801"
+              },
+              "id": "3050132986",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "what are the arguments in the print functions?print(\"Welcome to class\", \"  I am your trainer!\")",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3289622490",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Welcome to class I am your trainer!"
+              }
+            ],
+            "id": "3082783445",
+            "type": "p"
+          }
+        ],
+        "id": "1776488560"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Hello"
+              }
+            ],
+            "id": "4200482029",
+            "type": "p"
+          }
+        ],
+        "id": "3741735658"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Welcome to class   I am your trainer"
+              }
+            ],
+            "id": "4210218003",
+            "type": "p"
+          }
+        ],
+        "id": "3449018170"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Welcome to class"
+              }
+            ],
+            "id": "1651306554",
+            "type": "p"
+          }
+        ],
+        "id": "1388782298"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "what are the arguments in the print functions?"
+            }
+          ],
+          "id": "1422210381",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(\"Welcome to class\", \"  I am your trainer!\")"
+            }
+          ],
+          "id": "1422210381",
+          "type": "p"
+        }
+      ],
+      "id": "279015274"
+    }
+  },
+  "id": "1101",
+  "objectives": {
+    "1": [
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1251",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

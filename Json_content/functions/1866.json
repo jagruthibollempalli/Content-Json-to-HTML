@@ -1,0 +1,191 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "3659744644",
+                  "type": "p"
+                }
+              ],
+              "id": "1578000729"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You are doing well."
+                      }
+                    ],
+                    "id": "56037020",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "math is a library to add more mathematical capabilities."
+                      }
+                    ],
+                    "id": "56037020",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "math.log( x,2) returns the logarithm of x to the base 2."
+                      }
+                    ],
+                    "id": "56037020",
+                    "type": "p"
+                  }
+                ],
+                "id": "3104210265"
+              },
+              "id": "3132276798",
+              "rule": "input contains {6.0}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about libraries in detail in the upcoming course."
+                      }
+                    ],
+                    "id": "1721947112",
+                    "type": "p"
+                  }
+                ],
+                "id": "2180919524"
+              },
+              "id": "2669184987",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What does the following expressions evaluate to?Hint: what is the returned value of the function call?Don't just copy and run this code to find the answer- try to determine what the answer is yourself!Import mathmath.log(64, 2)",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2763843989",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "2346052496",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What does the following expressions evaluate to?"
+            }
+          ],
+          "id": "3981020679",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Hint: what is the returned value of the function call?"
+            }
+          ],
+          "id": "3981020679",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Don't just copy and run this code to find the answer- try to determine what the answer is yourself!"
+            }
+          ],
+          "id": "3981020679",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "Import math"
+            }
+          ],
+          "id": "3981020679",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "math.log(64, 2)"
+            }
+          ],
+          "id": "3981020679",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2346052496",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "3981020679",
+          "type": "p"
+        }
+      ],
+      "id": "2690168766"
+    }
+  },
+  "id": "1866",
+  "objectives": {
+    "1": [
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1617"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,21 @@
+{
+  "content": {
+    "model": [
+      {
+        "activity_id": 896,
+        "children": [],
+        "id": "126091496",
+        "purpose": "none",
+        "type": "activity-reference"
+      }
+    ]
+  },
+  "id": "895",
+  "isGraded": true,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Assessment - 2",
+  "type": "Page",
+  "unresolvedReferences": []
+}

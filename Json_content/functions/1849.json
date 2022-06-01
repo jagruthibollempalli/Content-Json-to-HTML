@@ -1,0 +1,273 @@
+{
+  "content": {
+    "authoring": {
+      "correct": [
+        [
+          "1073497415",
+          "1333251492",
+          "1138817097"
+        ],
+        "2598611560"
+      ],
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "1165617909",
+                  "type": "p"
+                }
+              ],
+              "id": "2689730381"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3063051373",
+                  "type": "p"
+                }
+              ],
+              "id": "2753761861"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3112439201",
+                  "type": "p"
+                }
+              ],
+              "id": "374652157"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done! you solved it right."
+                      }
+                    ],
+                    "id": "935903108",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "There are three print statements. Operations on the variables are done and displayed on the console."
+                      }
+                    ],
+                    "id": "935903108",
+                    "type": "p"
+                  }
+                ],
+                "id": "2735054866"
+              },
+              "id": "2598611560",
+              "rule": "(!(input like {2244175050})) && ((!(input like {2718209703})) && ((!(input like {3097440936})) && (input like {1138817097} && (input like {1333251492} && (input like {1073497415})))))",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Never mind, Lets go learn pre-built functions it in the upcoming course."
+                      }
+                    ],
+                    "id": "2386986538",
+                    "type": "p"
+                  }
+                ],
+                "id": "192575624"
+              },
+              "id": "3160984302",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Check all that are applicable from the options below, what the following code would print to the console.marks= 88print(marks + 5)print(marks % 4)print(marks * 3)",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "7026723",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "93"
+              }
+            ],
+            "id": "2786801236",
+            "type": "p"
+          }
+        ],
+        "id": "1073497415"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "0"
+              }
+            ],
+            "id": "2163814172",
+            "type": "p"
+          }
+        ],
+        "id": "1333251492"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "264"
+              }
+            ],
+            "id": "2811207574",
+            "type": "p"
+          }
+        ],
+        "id": "1138817097"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "263"
+              }
+            ],
+            "id": "2789152575",
+            "type": "p"
+          }
+        ],
+        "id": "3097440936"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "1"
+              }
+            ],
+            "id": "3824003719",
+            "type": "p"
+          }
+        ],
+        "id": "2718209703"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "94"
+              }
+            ],
+            "id": "1199446659",
+            "type": "p"
+          }
+        ],
+        "id": "2244175050"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Check all that are applicable from the options below, what the following code would print to the console."
+            }
+          ],
+          "id": "133365127",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "marks= 88"
+            }
+          ],
+          "id": "133365127",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(marks + 5)"
+            }
+          ],
+          "id": "133365127",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(marks % 4)"
+            }
+          ],
+          "id": "133365127",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(marks * 3)"
+            }
+          ],
+          "id": "133365127",
+          "type": "p"
+        }
+      ],
+      "id": "1687786298"
+    }
+  },
+  "id": "1849",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_check_all_that_apply",
+  "tags": [
+    "1836"
+  ],
+  "title": "Check All That Apply",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

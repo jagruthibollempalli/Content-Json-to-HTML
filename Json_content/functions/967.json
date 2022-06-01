@@ -1,0 +1,11 @@
+{
+  "children": [],
+  "content": {},
+  "id": "967",
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Trace the function calls to understand how Python keeps track of nested function calls",
+  "type": "Objective",
+  "unresolvedReferences": []
+}

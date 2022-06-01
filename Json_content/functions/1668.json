@@ -1,0 +1,175 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3176784097",
+                  "type": "p"
+                }
+              ],
+              "id": "1757488695"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3245411508",
+                  "type": "p"
+                }
+              ],
+              "id": "3287082067"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1848793753",
+                  "type": "p"
+                }
+              ],
+              "id": "2105502259"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "4079516939",
+                    "type": "p"
+                  }
+                ],
+                "id": "3328668768"
+              },
+              "id": "2950024524",
+              "rule": "input like {2452228873}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1142244287",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Return type is not present in the function definition"
+                      }
+                    ],
+                    "id": "1142244287",
+                    "type": "p"
+                  }
+                ],
+                "id": "301957574"
+              },
+              "id": "3242187849",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Is the return type present in the function definition?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1416802933",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Yes"
+              }
+            ],
+            "id": "1007914973",
+            "type": "p"
+          }
+        ],
+        "id": "2872685252"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "No"
+              }
+            ],
+            "id": "1640208673",
+            "type": "p"
+          }
+        ],
+        "id": "2452228873"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Is the return type present in the function definition?"
+            }
+          ],
+          "id": "3282660045",
+          "type": "p"
+        }
+      ],
+      "id": "293613445"
+    }
+  },
+  "id": "1668",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1617",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

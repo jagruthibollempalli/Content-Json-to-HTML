@@ -1,0 +1,174 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Fill the missing element in the line 2 "
+                    }
+                  ],
+                  "id": "1721803041",
+                  "type": "p"
+                }
+              ],
+              "id": "1968012023"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Use type functions"
+                    }
+                  ],
+                  "id": "762918641",
+                  "type": "p"
+                }
+              ],
+              "id": "538653904"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "These are built-in functions, like int() which is used for converting element to integer"
+                    }
+                  ],
+                  "id": "3138656347",
+                  "type": "p"
+                }
+              ],
+              "id": "3908559625"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "478786965",
+                    "type": "p"
+                  }
+                ],
+                "id": "1547987513"
+              },
+              "id": "3690414629",
+              "rule": "input contains {int}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1026742742",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Python string to an int, then you just pass the string to int(), which returns a decimal integer"
+                      }
+                    ],
+                    "id": "1026742742",
+                    "type": "p"
+                  }
+                ],
+                "id": "3491831824"
+              },
+              "id": "377659679",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "x = \"25\"y = ____(x)print(y)output: 25Fill in the blank in line 2?",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "x = \"25\""
+            }
+          ],
+          "id": "2523483095",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "y = ____(x)"
+            }
+          ],
+          "id": "2523483095",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(y)"
+            }
+          ],
+          "id": "2523483095",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "output: 25"
+            }
+          ],
+          "id": "2523483095",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Fill in the blank in line 2?"
+            }
+          ],
+          "id": "2523483095",
+          "type": "p"
+        }
+      ],
+      "id": "936214470"
+    }
+  },
+  "id": "1100",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1250",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

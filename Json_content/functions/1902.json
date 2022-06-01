@@ -1,0 +1,142 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2254624236",
+                  "type": "p"
+                }
+              ],
+              "id": "3134981390"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Smart . "
+                      }
+                    ],
+                    "id": "2166252011",
+                    "type": "p"
+                  }
+                ],
+                "id": "3579093407"
+              },
+              "id": "3046801986",
+              "rule": "input contains {def}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "you can learn about function definition in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function Definition"
+                      },
+                      {
+                        "text": " module "
+                      }
+                    ],
+                    "id": "271369283",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "(Remember : Every small concept is important)"
+                      }
+                    ],
+                    "id": "271369283",
+                    "type": "p"
+                  }
+                ],
+                "id": "204433719"
+              },
+              "id": "721463092",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": " is how Python knows the following code is a function definition.",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3514467015",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "292119659",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "292119659",
+              "type": "input_ref"
+            },
+            {
+              "text": " is how Python knows the following code is a function definition."
+            }
+          ],
+          "id": "1772118691",
+          "type": "p"
+        }
+      ],
+      "id": "3512668621"
+    }
+  },
+  "id": "1902",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1624"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,197 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "818367145",
+                  "type": "p"
+                }
+              ],
+              "id": "3478950875"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "4196892416",
+                  "type": "p"
+                }
+              ],
+              "id": "1746058929"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1748234697",
+                  "type": "p"
+                }
+              ],
+              "id": "506632938"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "1811537311",
+                    "type": "p"
+                  }
+                ],
+                "id": "1650942073"
+              },
+              "id": "1112742677",
+              "rule": "input like {3145240969}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3288907555",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "import math"
+                      }
+                    ],
+                    "id": "3288907555",
+                    "type": "p"
+                  }
+                ],
+                "id": "4083356789"
+              },
+              "id": "3078508282",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Which of the statements is used to import math library?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "4253103660",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "def math"
+              }
+            ],
+            "id": "3076260873",
+            "type": "p"
+          }
+        ],
+        "id": "3727584017"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "import math"
+              }
+            ],
+            "id": "181854257",
+            "type": "p"
+          }
+        ],
+        "id": "3145240969"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "import* math"
+              }
+            ],
+            "id": "2288406423",
+            "type": "p"
+          }
+        ],
+        "id": "1463986017"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "import maths"
+              }
+            ],
+            "id": "2048342036",
+            "type": "p"
+          }
+        ],
+        "id": "3301812842"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Which of the statements is used to import math library?"
+            }
+          ],
+          "id": "3648496367",
+          "type": "p"
+        }
+      ],
+      "id": "3047026994"
+    }
+  },
+  "id": "926",
+  "objectives": {
+    "1": []
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

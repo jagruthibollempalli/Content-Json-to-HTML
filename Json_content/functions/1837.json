@@ -1,0 +1,381 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "1848517657",
+                  "type": "p"
+                }
+              ],
+              "id": "2616133051"
+            }
+          ],
+          "id": "1245468559",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done!"
+                      }
+                    ],
+                    "id": "514887276",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "int( ) function converts the argument passed into an interger."
+                      }
+                    ],
+                    "id": "514887276",
+                    "type": "p"
+                  }
+                ],
+                "id": "801848871"
+              },
+              "id": "732828694",
+              "rule": "input contains {101}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Grr! nevermind lets learn pre-built functions it in the upcoming course."
+                      }
+                    ],
+                    "id": "3968419321",
+                    "type": "p"
+                  }
+                ],
+                "id": "3298255926"
+              },
+              "id": "2822123865",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "2852935136",
+                  "type": "p"
+                }
+              ],
+              "id": "4112124823"
+            }
+          ],
+          "id": "1973966585",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done!"
+                      }
+                    ],
+                    "id": "2924068993",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "According to the rules of math, first the expression inside paranthesis is evaluated and next the outer expression is computed."
+                      }
+                    ],
+                    "id": "2924068993",
+                    "type": "p"
+                  }
+                ],
+                "id": "60866178"
+              },
+              "id": "2530619766",
+              "rule": "input contains {0}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about the pre-built functions it in the next module."
+                      }
+                    ],
+                    "id": "658413464",
+                    "type": "p"
+                  }
+                ],
+                "id": "1251820032"
+              },
+              "id": "1147087031",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "3112825030",
+                  "type": "p"
+                }
+              ],
+              "id": "895407484"
+            }
+          ],
+          "id": "568981882",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You are doing good !"
+                      }
+                    ],
+                    "id": "873698872",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "There are two functions in the above question."
+                      }
+                    ],
+                    "id": "873698872",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "abs()"
+                          }
+                        ],
+                        "id": "873698872",
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "round()"
+                          }
+                        ],
+                        "id": "873698872",
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "4163674325",
+                    "type": "p"
+                  }
+                ],
+                "id": "2455674292"
+              },
+              "id": "2573386874",
+              "rule": "input contains {1.9}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about the pre-built functions it in the next module."
+                      }
+                    ],
+                    "id": "2133400552",
+                    "type": "p"
+                  }
+                ],
+                "id": "2540447283"
+              },
+              "id": "1238029949",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Don't just copy and run this code to find the answer.Try to determine the answer by yourself.int(101.786) = print(10 - (5 * 2)) = round(abs(-1.9021), 1) = ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1291807904",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "2198687571",
+        "inputType": "text",
+        "partId": "1245468559"
+      },
+      {
+        "id": "3101358326",
+        "inputType": "text",
+        "partId": "1973966585"
+      },
+      {
+        "id": "2319618829",
+        "inputType": "text",
+        "partId": "568981882"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Don't just copy and run this code to find the answer."
+            }
+          ],
+          "id": "2345144200",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Try to determine the answer by yourself."
+            }
+          ],
+          "id": "2345144200",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "int(101.786) = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2198687571",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2345144200",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(10 - (5 * 2)) = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "3101358326",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2345144200",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "round(abs(-1.9021), 1) = "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2319618829",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2345144200",
+          "type": "p"
+        }
+      ],
+      "id": "898956156"
+    }
+  },
+  "id": "1837",
+  "objectives": {
+    "1245468559": [
+      "962"
+    ],
+    "1973966585": [
+      "962"
+    ],
+    "568981882": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1617"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

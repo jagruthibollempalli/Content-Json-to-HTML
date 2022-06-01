@@ -1,0 +1,203 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "485374670",
+                  "type": "p"
+                }
+              ],
+              "id": "2440563271"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1888781182",
+                  "type": "p"
+                }
+              ],
+              "id": "2605721023"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2002614383",
+                  "type": "p"
+                }
+              ],
+              "id": "3597969889"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2291336711",
+                    "type": "p"
+                  }
+                ],
+                "id": "1161149118"
+              },
+              "id": "4218290584",
+              "rule": "input like {2247351586}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1127937952",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Define a function"
+                      }
+                    ],
+                    "id": "1127937952",
+                    "type": "p"
+                  }
+                ],
+                "id": "1527364078"
+              },
+              "id": "1657202518",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "The def keyword is used for?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "649623326",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Define a function"
+              }
+            ],
+            "id": "677669909",
+            "type": "p"
+          }
+        ],
+        "id": "2247351586"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Define a variable"
+              }
+            ],
+            "id": "697621502",
+            "type": "p"
+          }
+        ],
+        "id": "1128594859"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Define a data type"
+              }
+            ],
+            "id": "363851570",
+            "type": "p"
+          }
+        ],
+        "id": "2048990096"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Define a list"
+              }
+            ],
+            "id": "2932922278",
+            "type": "p"
+          }
+        ],
+        "id": "1982894023"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "The def keyword is used for?"
+            }
+          ],
+          "id": "2026679410",
+          "type": "p"
+        }
+      ],
+      "id": "450960244"
+    }
+  },
+  "id": "1658",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1617",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

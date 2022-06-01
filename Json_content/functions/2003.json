@@ -1,0 +1,318 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "3558221580",
+                  "type": "p"
+                }
+              ],
+              "id": "2009658009"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Good Job !!"
+                      }
+                    ],
+                    "id": "2346202231",
+                    "type": "p"
+                  }
+                ],
+                "id": "1508522805"
+              },
+              "id": "3942520486",
+              "rule": "input = {56}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about pre-built function in Function calls module"
+                      }
+                    ],
+                    "id": "3996401167",
+                    "type": "p"
+                  }
+                ],
+                "id": "550694034"
+              },
+              "id": "3555313452",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "1790368390",
+                  "type": "p"
+                }
+              ],
+              "id": "3388548149"
+            }
+          ],
+          "id": "209857659",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Good Job !!"
+                      }
+                    ],
+                    "id": "1000350632",
+                    "type": "p"
+                  }
+                ],
+                "id": "3544756183"
+              },
+              "id": "3509790450",
+              "rule": "input = {12}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about pre-built function in Function calls module"
+                      }
+                    ],
+                    "id": "3219447517",
+                    "type": "p"
+                  }
+                ],
+                "id": "1347349706"
+              },
+              "id": "2798447773",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "3040106905",
+                  "type": "p"
+                }
+              ],
+              "id": "352414918"
+            }
+          ],
+          "id": "1467198671",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Good Job !!"
+                      }
+                    ],
+                    "id": "1238466646",
+                    "type": "p"
+                  }
+                ],
+                "id": "1596736448"
+              },
+              "id": "4246356580",
+              "rule": "input = {153}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about pre-built function in Function calls module"
+                      }
+                    ],
+                    "id": "3025817802",
+                    "type": "p"
+                  }
+                ],
+                "id": "3311038590"
+              },
+              "id": "2043726617",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "what the following lines would print to the console.value= 51print(value+ 5) print(value // 4)print(value * 3)",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2935445872",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "1694657610",
+        "inputType": "numeric",
+        "partId": "1"
+      },
+      {
+        "id": "3009771381",
+        "inputType": "numeric",
+        "partId": "209857659"
+      },
+      {
+        "id": "2008256948",
+        "inputType": "numeric",
+        "partId": "1467198671"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "what the following lines would print to the console."
+            }
+          ],
+          "id": "885998292",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "value= 51"
+            }
+          ],
+          "id": "885998292",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(value+ 5) "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "1694657610",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "885998292",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(value // 4)"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "3009771381",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "885998292",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(value * 3)"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2008256948",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "885998292",
+          "type": "p"
+        }
+      ],
+      "id": "3308520246"
+    }
+  },
+  "id": "2003",
+  "objectives": {
+    "1": [
+      "962"
+    ],
+    "1467198671": [],
+    "209857659": []
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1624"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

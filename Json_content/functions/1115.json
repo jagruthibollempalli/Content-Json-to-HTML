@@ -1,0 +1,193 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "445134326",
+                  "type": "p"
+                }
+              ],
+              "id": "3600232348"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "4161875373",
+                  "type": "p"
+                }
+              ],
+              "id": "520746521"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1238905001",
+                  "type": "p"
+                }
+              ],
+              "id": "1334995346"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "249013039",
+                    "type": "p"
+                  }
+                ],
+                "id": "2530763610"
+              },
+              "id": "1525149231",
+              "rule": "input like {3252437547}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "2835230704",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "floor() is useful for round down the value math.floor(67.12) = 67"
+                      }
+                    ],
+                    "id": "2835230704",
+                    "type": "p"
+                  }
+                ],
+                "id": "2013502725"
+              },
+              "id": "3677934495",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "import mathprint(math.floor(67.12))what is the output?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2968059878",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "67"
+              }
+            ],
+            "id": "486868391",
+            "type": "p"
+          }
+        ],
+        "id": "3252437547"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "68"
+              }
+            ],
+            "id": "3878741484",
+            "type": "p"
+          }
+        ],
+        "id": "818986598"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "import math"
+            }
+          ],
+          "id": "359761831",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(math.floor(67.12))"
+            }
+          ],
+          "id": "359761831",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "what is the output?"
+            }
+          ],
+          "id": "359761831",
+          "type": "p"
+        }
+      ],
+      "id": "3162152739"
+    }
+  },
+  "id": "1115",
+  "objectives": {
+    "1": [
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1262",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,204 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "3121235015",
+                  "type": "p"
+                }
+              ],
+              "id": "2978120831"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Bravo! You nailed it. Thats the right answer"
+                      }
+                    ],
+                    "id": "758339652",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "There are 4 functions compounded in the above question."
+                      }
+                    ],
+                    "id": "758339652",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "abs() - returns the absolute value of the argument."
+                          }
+                        ],
+                        "id": "758339652",
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "pow() - returns the power of first argument to the second argument "
+                          }
+                        ],
+                        "id": "758339652",
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "round() - rounds the argument to specified decimal places."
+                          }
+                        ],
+                        "id": "758339652",
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "print() - prints the value of passed arguments to the console. "
+                          }
+                        ],
+                        "id": "758339652",
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "267716088",
+                    "type": "p"
+                  }
+                ],
+                "id": "603667239"
+              },
+              "id": "4291023221",
+              "rule": "input contains {4.5826}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, lets learn more about the pre-built functions it in the next module."
+                      }
+                    ],
+                    "id": "1864258203",
+                    "type": "p"
+                  }
+                ],
+                "id": "2870516936"
+              },
+              "id": "3689342429",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Try to determine the answer by yourself.print(round(pow(abs(-21), 1/2), 4)).",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1865602549",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "4013474986",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Try to determine the answer by yourself."
+            }
+          ],
+          "id": "4188927210",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "print(round(pow(abs(-21), 1/2), 4))"
+            }
+          ],
+          "id": "4188927210",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "4013474986",
+              "type": "input_ref"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "id": "4188927210",
+          "type": "p"
+        }
+      ],
+      "id": "843368993"
+    }
+  },
+  "id": "1841",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1617"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

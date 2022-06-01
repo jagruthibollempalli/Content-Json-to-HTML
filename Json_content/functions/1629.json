@@ -1,0 +1,139 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2178819723",
+                  "type": "p"
+                }
+              ],
+              "id": "2726602017"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3462420734",
+                  "type": "p"
+                }
+              ],
+              "id": "2459962991"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "51369951",
+                  "type": "p"
+                }
+              ],
+              "id": "3950991226"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2798495768",
+                    "type": "p"
+                  }
+                ],
+                "id": "390622188"
+              },
+              "id": "3692893502",
+              "rule": "input contains {pow(34)}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "962327252",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "pow(34)"
+                      }
+                    ],
+                    "id": "962327252",
+                    "type": "p"
+                  }
+                ],
+                "id": "952141746"
+              },
+              "id": "3249763356",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Write a function to calculate the power of the number 34 using in-built functions",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Write a function to calculate the power of the number 34 using in-built functions"
+            }
+          ],
+          "id": "2791038981",
+          "type": "p"
+        }
+      ],
+      "id": "182322979"
+    }
+  },
+  "id": "1629",
+  "objectives": {
+    "1": [
+      "963",
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1624",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

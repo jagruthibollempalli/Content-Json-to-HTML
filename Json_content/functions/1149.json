@@ -1,0 +1,156 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Find the scope of the variables in the code"
+                    }
+                  ],
+                  "id": "1914739540",
+                  "type": "p"
+                }
+              ],
+              "id": "3327569562"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Observe the scope of the variables"
+                    }
+                  ],
+                  "id": "1187417152",
+                  "type": "p"
+                }
+              ],
+              "id": "3425257105"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1225074368",
+                  "type": "p"
+                }
+              ],
+              "id": "3042754631"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "441577238",
+                    "type": "p"
+                  }
+                ],
+                "id": "3115938654"
+              },
+              "id": "2341163774",
+              "rule": "input contains {Global and Local}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3385491435",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Global and Local"
+                      }
+                    ],
+                    "id": "3385491435",
+                    "type": "p"
+                  }
+                ],
+                "id": "2104145642"
+              },
+              "id": "676196522",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What is the scope of variables power and wings?",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "509212648",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3819983704",
+          "src": "data:image/png;base64,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",
+          "type": "img"
+        },
+        {
+          "children": [
+            {
+              "text": "What is the scope of variables power and wings?"
+            }
+          ],
+          "id": "2065920404",
+          "type": "p"
+        }
+      ],
+      "id": "3128416893"
+    }
+  },
+  "id": "1149",
+  "objectives": {
+    "1": [
+      "966"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

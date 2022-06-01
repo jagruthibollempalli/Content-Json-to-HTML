@@ -1,0 +1,1104 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "2296261348",
+                  "type": "p"
+                }
+              ],
+              "id": "3503572632"
+            }
+          ],
+          "id": "3701705361",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done !! you got it right."
+                      }
+                    ],
+                    "id": "276386538",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "round(3.147, 1)"
+                      },
+                      {
+                        "text": " = Round a number to 1 decimals"
+                      }
+                    ],
+                    "id": "276386538",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "Syntax "
+                      },
+                      {
+                        "text": ": round(number, digits)"
+                      }
+                    ],
+                    "id": "276386538",
+                    "type": "p"
+                  }
+                ],
+                "id": "141699637"
+              },
+              "id": "1280567635",
+              "rule": "input contains {3.1}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, lets learn about the returned value and side effects of a function it in the next module"
+                      }
+                    ],
+                    "id": "1937899500",
+                    "type": "p"
+                  }
+                ],
+                "id": "869509905"
+              },
+              "id": "4020300262",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "922124582",
+                  "type": "p"
+                }
+              ],
+              "id": "2392278052"
+            }
+          ],
+          "id": "2959640480",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done!"
+                      }
+                    ],
+                    "id": "965409974",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "Explanation :"
+                      }
+                    ],
+                    "id": "965409974",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Sometimes a function changes the program state in an observable way as it is running; for example, it might display values in the interpreter, or modify a file, or produce graphics. This is called a "
+                      },
+                      {
+                        "strong": true,
+                        "text": "side effect."
+                      }
+                    ],
+                    "id": "965409974",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "round() does not have an observable side effect"
+                      }
+                    ],
+                    "id": "965409974",
+                    "type": "p"
+                  }
+                ],
+                "id": "2086093376"
+              },
+              "id": "3005814208",
+              "rule": "input contains {no}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about the returned value and side effects of a function it in the next module."
+                      }
+                    ],
+                    "id": "262339587",
+                    "type": "p"
+                  }
+                ],
+                "id": "3435538053"
+              },
+              "id": "1708235103",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "787023308",
+                  "type": "p"
+                }
+              ],
+              "id": "811669242"
+            }
+          ],
+          "id": "3963971453",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent!"
+                      }
+                    ],
+                    "id": "3014102504",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "abs() function returns the absolute value of a number, it takes only one argument and it will remove the negative sign of the number and returns the numeric value."
+                      }
+                    ],
+                    "id": "3014102504",
+                    "type": "p"
+                  }
+                ],
+                "id": "3768831733"
+              },
+              "id": "2557339069",
+              "rule": "input contains {178}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about the returned value and side effects of a function it in the next module."
+                      }
+                    ],
+                    "id": "4218871350",
+                    "type": "p"
+                  }
+                ],
+                "id": "3979285847"
+              },
+              "id": "3668372921",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "3681561484",
+                  "type": "p"
+                }
+              ],
+              "id": "2646336263"
+            }
+          ],
+          "id": "3804246734",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent!"
+                      }
+                    ],
+                    "id": "287566892",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Sometimes a function changes the program state in an observable way as it is running; for example, it might display values in the interpreter, or modify a file, or produce graphics. This is called a "
+                      },
+                      {
+                        "strong": true,
+                        "text": "side effect."
+                      }
+                    ],
+                    "id": "287566892",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "abs() does not have an observable side effect"
+                      }
+                    ],
+                    "id": "965409974",
+                    "type": "p"
+                  }
+                ],
+                "id": "376394828"
+              },
+              "id": "385267387",
+              "rule": "input contains {No}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about the returned value and side effects of a function it in the next module."
+                      }
+                    ],
+                    "id": "2915929543",
+                    "type": "p"
+                  }
+                ],
+                "id": "521855299"
+              },
+              "id": "1835055390",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "3729523090",
+                  "type": "p"
+                }
+              ],
+              "id": "3770649545"
+            }
+          ],
+          "id": "4144735706",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent!"
+                      }
+                    ],
+                    "id": "1024443841",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "pow( ) takes in two arguments and computes the power of first argument to the second argument. "
+                      }
+                    ],
+                    "id": "1024443841",
+                    "type": "p"
+                  }
+                ],
+                "id": "831550381"
+              },
+              "id": "4254807920",
+              "rule": "input contains {8}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about the returned value and side effects of a function it in the next module."
+                      }
+                    ],
+                    "id": "2347167810",
+                    "type": "p"
+                  }
+                ],
+                "id": "3254360097"
+              },
+              "id": "3730066577",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "1316901578",
+                  "type": "p"
+                }
+              ],
+              "id": "2111883756"
+            }
+          ],
+          "id": "3955284700",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent!"
+                      }
+                    ],
+                    "id": "1841083978",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Sometimes a function changes the program state in an observable way as it is running; for example, it might display values in the interpreter, or modify a file, or produce graphics. This is called a "
+                      },
+                      {
+                        "strong": true,
+                        "text": "side effect."
+                      }
+                    ],
+                    "id": "287566892",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "strong": true,
+                        "text": "pow() does not have an observable side effect"
+                      }
+                    ],
+                    "id": "965409974",
+                    "type": "p"
+                  }
+                ],
+                "id": "771408629"
+              },
+              "id": "10463614",
+              "rule": "input contains {no}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about the returned value and side effects of a function it in the next module."
+                      }
+                    ],
+                    "id": "3787417578",
+                    "type": "p"
+                  }
+                ],
+                "id": "762071523"
+              },
+              "id": "1378423920",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "649248198",
+                  "type": "p"
+                }
+              ],
+              "id": "2010881051"
+            }
+          ],
+          "id": "1296183225",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent!"
+                      }
+                    ],
+                    "id": "2086205386",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "print( ) takes a finite no. of arguments and displays the value on the console."
+                      }
+                    ],
+                    "id": "2086205386",
+                    "type": "p"
+                  }
+                ],
+                "id": "145976779"
+              },
+              "id": "2765656660",
+              "rule": "input contains {This is interesting}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about the returned value and side effects of a function it in the next module."
+                      }
+                    ],
+                    "id": "3697033945",
+                    "type": "p"
+                  }
+                ],
+                "id": "3456489312"
+              },
+              "id": "3421181755",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for graded tests"
+                    }
+                  ],
+                  "id": "576775836",
+                  "type": "p"
+                }
+              ],
+              "id": "2358957494"
+            }
+          ],
+          "id": "1448284153",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You are right !"
+                      }
+                    ],
+                    "id": "933770007",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Sometimes a function changes the program state in an observable way as it is running; for example, it might display values in the interpreter, or modify a file, or produce graphics. This is called a"
+                      },
+                      {
+                        "strong": true,
+                        "text": " side effect"
+                      }
+                    ],
+                    "id": "933770007",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "print('This is interesting'), has an observable side effect: it prints \"This is interesting\" to the screen."
+                      }
+                    ],
+                    "id": "933770007",
+                    "type": "p"
+                  }
+                ],
+                "id": "617361954"
+              },
+              "id": "3317990054",
+              "rule": "input contains {yes}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nah! not a problem, you can learn about the returned value and side effects of a function it in the next module."
+                      }
+                    ],
+                    "id": "2447409123",
+                    "type": "p"
+                  }
+                ],
+                "id": "1794452750"
+              },
+              "id": "2114249483",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "For each of the following function calls, what is the return value and side effect, if any? (yes/no)Function CallReturned ValueSide Effectround(3.147, 1)abs(178) pow(2, 3)print('This is interesting')",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1560663471",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "3683783785",
+        "inputType": "text",
+        "partId": "3701705361"
+      },
+      {
+        "id": "1792484538",
+        "inputType": "text",
+        "partId": "2959640480"
+      },
+      {
+        "id": "3085491294",
+        "inputType": "text",
+        "partId": "3963971453"
+      },
+      {
+        "id": "1512240241",
+        "inputType": "text",
+        "partId": "3804246734"
+      },
+      {
+        "id": "3062056934",
+        "inputType": "text",
+        "partId": "4144735706"
+      },
+      {
+        "id": "304349708",
+        "inputType": "text",
+        "partId": "3955284700"
+      },
+      {
+        "id": "2752921040",
+        "inputType": "text",
+        "partId": "1296183225"
+      },
+      {
+        "id": "1986108292",
+        "inputType": "text",
+        "partId": "1448284153"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "For each of the following function calls, what is the return value and side effect, if any? (yes/no)"
+            }
+          ],
+          "id": "2468878776",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2468878776",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Function Call"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2563739020",
+                  "type": "th"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Returned Value"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3833004049",
+                  "type": "th"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Side Effect"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3149094304",
+                  "type": "th"
+                }
+              ],
+              "id": "620001774",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "round(3.147, 1)"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3048056773",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "3683783785",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2809220519",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "1792484538",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3629119915",
+                  "type": "td"
+                }
+              ],
+              "id": "3296982525",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "abs(178)"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2551832573",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "3085491294",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3411978533",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "1512240241",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "4211582057",
+                  "type": "td"
+                }
+              ],
+              "id": "2372307547",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": " pow(2, 3)"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2307828222",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "3062056934",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2271184658",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "304349708",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2731419366",
+                  "type": "td"
+                }
+              ],
+              "id": "1642295429",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "print('This is interesting')"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2347199535",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "2752921040",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "1624569108",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "1986108292",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2724062648",
+                  "type": "td"
+                }
+              ],
+              "id": "3619173483",
+              "type": "tr"
+            }
+          ],
+          "id": "1484594525",
+          "type": "table"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2468878776",
+          "type": "p"
+        }
+      ],
+      "id": "1502060556"
+    }
+  },
+  "id": "1852",
+  "objectives": {
+    "1296183225": [
+      "963"
+    ],
+    "1448284153": [
+      "963"
+    ],
+    "2959640480": [
+      "963"
+    ],
+    "3701705361": [
+      "963"
+    ],
+    "3804246734": [
+      "963"
+    ],
+    "3955284700": [
+      "963"
+    ],
+    "3963971453": [
+      "963"
+    ],
+    "4144735706": [
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1617"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,157 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Find the value of x"
+                    }
+                  ],
+                  "id": "670492638",
+                  "type": "p"
+                }
+              ],
+              "id": "3684659929"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Observe the scope of the variables"
+                    }
+                  ],
+                  "id": "3981091394",
+                  "type": "p"
+                }
+              ],
+              "id": "925434276"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "964773353",
+                  "type": "p"
+                }
+              ],
+              "id": "1094846014"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "1307838751",
+                    "type": "p"
+                  }
+                ],
+                "id": "3852357016"
+              },
+              "id": "3051954149",
+              "rule": "input contains {3}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "2896034888",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "x = 3 is defined globally"
+                      }
+                    ],
+                    "id": "2896034888",
+                    "type": "p"
+                  }
+                ],
+                "id": "684275652"
+              },
+              "id": "1466767722",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What is the output?",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "3627117209",
+          "type": "p"
+        },
+        {
+          "caption": "",
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2108421407",
+          "src": "data:image/png;base64,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",
+          "type": "img"
+        },
+        {
+          "children": [
+            {
+              "text": "What is the output?"
+            }
+          ],
+          "id": "3747701261",
+          "type": "p"
+        }
+      ],
+      "id": "92365471"
+    }
+  },
+  "id": "1147",
+  "objectives": {
+    "1": [
+      "966"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

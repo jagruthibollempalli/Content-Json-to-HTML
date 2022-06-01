@@ -1,0 +1,161 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "1944484446",
+                  "type": "p"
+                }
+              ],
+              "id": "723482767"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Congratulations. Well done !!"
+                      }
+                    ],
+                    "id": "2418929771",
+                    "type": "p"
+                  }
+                ],
+                "id": "1113589741"
+              },
+              "id": "4228152821",
+              "rule": "input contains {4.243}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "you can do better ."
+                      }
+                    ],
+                    "id": "394761872",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about pre-built function in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function calls"
+                      },
+                      {
+                        "text": " module"
+                      }
+                    ],
+                    "id": "394761872",
+                    "type": "p"
+                  }
+                ],
+                "id": "379174630"
+              },
+              "id": "3241995407",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Try to determine the answer by yourself.print(round(pow(abs(-18), 1/2), 3)).",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "654591563",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "3956255907",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Try to determine the answer by yourself."
+            }
+          ],
+          "id": "1828670751",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "print(round(pow(abs(-18), 1/2), 3))"
+            }
+          ],
+          "id": "1828670751",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "3956255907",
+              "type": "input_ref"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "id": "1828670751",
+          "type": "p"
+        }
+      ],
+      "id": "2325694352"
+    }
+  },
+  "id": "1842",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1624"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

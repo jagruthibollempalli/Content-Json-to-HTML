@@ -1,0 +1,203 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "71991955",
+                  "type": "p"
+                }
+              ],
+              "id": "3348903764"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3389056202",
+                  "type": "p"
+                }
+              ],
+              "id": "780955866"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "363891705",
+                  "type": "p"
+                }
+              ],
+              "id": "1293040519"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "1509805943",
+                    "type": "p"
+                  }
+                ],
+                "id": "4251831897"
+              },
+              "id": "3350463770",
+              "rule": "input like {240009768}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1319558796",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "All required parameters must be placed before any default arguments, def fun(a, b = 4, c = 3)"
+                      }
+                    ],
+                    "id": "1319558796",
+                    "type": "p"
+                  }
+                ],
+                "id": "2497927677"
+              },
+              "id": "3794243064",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Which of the following function headers is correct?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3136521415",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "def fun(a = 7, b = 6, c)"
+              }
+            ],
+            "id": "1810690876",
+            "type": "p"
+          }
+        ],
+        "id": "3087942792"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "def fun(a = 5, b, c = 7)"
+              }
+            ],
+            "id": "2290901822",
+            "type": "p"
+          }
+        ],
+        "id": "3092389638"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "def fun(a, b = 4, c = 3)"
+              }
+            ],
+            "id": "3117490989",
+            "type": "p"
+          }
+        ],
+        "id": "240009768"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "def fun(a, b, c = 6, d)"
+              }
+            ],
+            "id": "1043996404",
+            "type": "p"
+          }
+        ],
+        "id": "630190889"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Which of the following function headers is correct?"
+            }
+          ],
+          "id": "3790394703",
+          "type": "p"
+        }
+      ],
+      "id": "3385670983"
+    }
+  },
+  "id": "1683",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1624",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

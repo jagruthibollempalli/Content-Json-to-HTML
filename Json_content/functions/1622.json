@@ -1,0 +1,138 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3724971556",
+                  "type": "p"
+                }
+              ],
+              "id": "133898563"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2832153603",
+                    "type": "p"
+                  }
+                ],
+                "id": "1146957784"
+              },
+              "id": "2748881509",
+              "rule": "input contains {math.floor(34.65)}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "859143297",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "math.floor(34.65)"
+                      }
+                    ],
+                    "id": "859143297",
+                    "type": "p"
+                  }
+                ],
+                "id": "3405831182"
+              },
+              "id": "1362299803",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "The function is used to round down the number 34.65. ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1907957939",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "49645043",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "The function is used to round down the number 34.65. "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "49645043",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2904646421",
+          "type": "p"
+        }
+      ],
+      "id": "1964856680"
+    }
+  },
+  "id": "1622",
+  "objectives": {
+    "1": [
+      "963",
+      "962",
+      "964"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1617",
+    "1612",
+    "1613"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

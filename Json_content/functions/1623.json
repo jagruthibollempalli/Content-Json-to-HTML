@@ -1,0 +1,203 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "723143808",
+                  "type": "p"
+                }
+              ],
+              "id": "1835976785"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1006762989",
+                  "type": "p"
+                }
+              ],
+              "id": "1032427933"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "689060265",
+                  "type": "p"
+                }
+              ],
+              "id": "1497463181"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "1177706016",
+                    "type": "p"
+                  }
+                ],
+                "id": "3243345599"
+              },
+              "id": "3406876772",
+              "rule": "input like {1975480942}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1361062135",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Function name, parameters"
+                      }
+                    ],
+                    "id": "1361062135",
+                    "type": "p"
+                  }
+                ],
+                "id": "632142505"
+              },
+              "id": "1648306425",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Which of the following are present in the function call?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3975786990",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Function name, parameters"
+              }
+            ],
+            "id": "3132483109",
+            "type": "p"
+          }
+        ],
+        "id": "2873981718"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Function name"
+              }
+            ],
+            "id": "3309444803",
+            "type": "p"
+          }
+        ],
+        "id": "1766954397"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Parameters"
+              }
+            ],
+            "id": "869325919",
+            "type": "p"
+          }
+        ],
+        "id": "4026504212"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Logic"
+              }
+            ],
+            "id": "148343132",
+            "type": "p"
+          }
+        ],
+        "id": "1975480942"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Which of the following are present in the function call?"
+            }
+          ],
+          "id": "3396982384",
+          "type": "p"
+        }
+      ],
+      "id": "4274883305"
+    }
+  },
+  "id": "1623",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1624",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

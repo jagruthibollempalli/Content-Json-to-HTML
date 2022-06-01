@@ -1,0 +1,59 @@
+{
+  "content": {
+    "model": [
+      {
+        "count": 8,
+        "id": "3799577170",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  965,
+                  967,
+                  966
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "contains",
+                "value": [
+                  1617
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "none",
+        "type": "selection"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "3964971026",
+            "type": "p"
+          }
+        ],
+        "id": "4036214149",
+        "purpose": "none",
+        "type": "content"
+      }
+    ]
+  },
+  "id": "1634",
+  "isGraded": true,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "New Assessment",
+  "type": "Page",
+  "unresolvedReferences": []
+}

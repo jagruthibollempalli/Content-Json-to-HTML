@@ -1,0 +1,141 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "idref": "2621",
+              "type": "item"
+            },
+            {
+              "children": [],
+              "idref": "1908",
+              "type": "item"
+            }
+          ],
+          "id": "2473",
+          "tags": [],
+          "title": "Introduction",
+          "type": "container"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "idref": "771",
+              "type": "item"
+            },
+            {
+              "children": [],
+              "idref": "798",
+              "type": "item"
+            }
+          ],
+          "id": "769",
+          "tags": [],
+          "title": "Learning by doing",
+          "type": "container"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "idref": "1910",
+              "type": "item"
+            }
+          ],
+          "id": "1234",
+          "tags": [],
+          "title": "Post-Test",
+          "type": "container"
+        }
+      ],
+      "id": "765",
+      "tags": [],
+      "title": "Function calls",
+      "type": "container"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "idref": "2622",
+              "type": "item"
+            },
+            {
+              "children": [],
+              "idref": "1915",
+              "type": "item"
+            }
+          ],
+          "id": "2474",
+          "tags": [],
+          "title": "Introduction",
+          "type": "container"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "idref": "857",
+              "type": "item"
+            },
+            {
+              "children": [],
+              "idref": "858",
+              "type": "item"
+            },
+            {
+              "children": [],
+              "idref": "859",
+              "type": "item"
+            }
+          ],
+          "id": "854",
+          "tags": [],
+          "title": "Learning by doing",
+          "type": "container"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "idref": "1916",
+              "type": "item"
+            }
+          ],
+          "id": "1237",
+          "tags": [],
+          "title": "Post-Test",
+          "type": "container"
+        }
+      ],
+      "id": "766",
+      "tags": [],
+      "title": "Function definitions",
+      "type": "container"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "idref": "2584",
+          "type": "item"
+        }
+      ],
+      "id": "767",
+      "tags": [],
+      "title": "[Project]Draw a layout with graphics",
+      "type": "container"
+    }
+  ],
+  "id": "",
+  "originalFile": "",
+  "tags": [],
+  "title": "",
+  "type": "Hierarchy"
+}

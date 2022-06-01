@@ -1,0 +1,151 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "How many arguments are required to call the above function?"
+                    }
+                  ],
+                  "id": "4152954908",
+                  "type": "p"
+                }
+              ],
+              "id": "3337463326"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Arguments are the variables parsed inside a function call."
+                    }
+                  ],
+                  "id": "2593371767",
+                  "type": "p"
+                }
+              ],
+              "id": "863297728"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "In the function call, "
+                    },
+                    {
+                      "strong": true,
+                      "text": "msg_to_santa(name, age, wish)"
+                    }
+                  ],
+                  "id": "2325565204",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "name, age and wish are arguments."
+                    }
+                  ],
+                  "id": "2325565204",
+                  "type": "p"
+                }
+              ],
+              "id": "1603996578"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nice !!"
+                      }
+                    ],
+                    "id": "3045826514",
+                    "type": "p"
+                  }
+                ],
+                "id": "456005437"
+              },
+              "id": "1036061988",
+              "rule": "input contains {3}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "983509394",
+                    "type": "p"
+                  }
+                ],
+                "id": "3411881686"
+              },
+              "id": "3066494692",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "In the function call below, how many arguments are there? msg_to_santa(name, age, wish)",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "In the function call below, how many arguments are there? "
+            }
+          ],
+          "id": "2475863956",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "strong": true,
+              "text": "msg_to_santa(name, age, wish)"
+            }
+          ],
+          "id": "2475863956",
+          "type": "p"
+        }
+      ],
+      "id": "1959756279"
+    }
+  },
+  "id": "1862",
+  "objectives": {
+    "1": [
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1638",
+    "1834"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

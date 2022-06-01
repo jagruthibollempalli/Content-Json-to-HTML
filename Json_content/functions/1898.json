@@ -1,0 +1,128 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Which keyword is used to start a function syntax?"
+                    }
+                  ],
+                  "id": "3766792180",
+                  "type": "p"
+                }
+              ],
+              "id": "468995262"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "First word in the first line function body denotes the start of the funtion."
+                    }
+                  ],
+                  "id": "893816091",
+                  "type": "p"
+                }
+              ],
+              "id": "1540545524"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Funtion body starts with the keyword"
+                    }
+                  ],
+                  "id": "4024206133",
+                  "type": "p"
+                }
+              ],
+              "id": "195927319"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done !"
+                      }
+                    ],
+                    "id": "58083130",
+                    "type": "p"
+                  }
+                ],
+                "id": "709213041"
+              },
+              "id": "3383725987",
+              "rule": "input contains {def}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "3679668228",
+                    "type": "p"
+                  }
+                ],
+                "id": "1503209535"
+              },
+              "id": "3754796210",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What keyword denotes the start of a function?",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "What keyword denotes the start of a function?"
+            }
+          ],
+          "id": "1086254992",
+          "type": "p"
+        }
+      ],
+      "id": "4031460421"
+    }
+  },
+  "id": "1898",
+  "objectives": {
+    "1": [
+      "965"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1638",
+    "1834"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

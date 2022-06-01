@@ -1,0 +1,118 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Create a simple interest function with the formula"
+                    }
+                  ],
+                  "id": "1356909503",
+                  "type": "p"
+                }
+              ],
+              "id": "4114794798"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "-"
+                    }
+                  ],
+                  "id": "2355737175",
+                  "type": "p"
+                }
+              ],
+              "id": "794422208"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "-"
+                    }
+                  ],
+                  "id": "1967779757",
+                  "type": "p"
+                }
+              ],
+              "id": "1220982379"
+            }
+          ],
+          "id": "1",
+          "responses": [],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Write a program to calculate the simple interest for the principal amount 1090 with an interest rate of 2 and 5 for the time period of 3 years and 7 years using functions"
+    },
+    "feedback": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Incorrect"
+              }
+            ],
+            "id": "3236550122",
+            "type": "p"
+          }
+        ],
+        "id": "525623026"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Correct"
+              }
+            ],
+            "id": "3697891677",
+            "type": "p"
+          }
+        ],
+        "id": "2678733961"
+      }
+    ],
+    "isExample": false,
+    "regex": "",
+    "resourceURLs": [],
+    "solutionCode": "Sample Solution Code",
+    "starterCode": "",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Write a program to calculate the simple interest for the principal amount 1090 with an interest rate of 2 and 5 for the time period of 3 years and 7 years using functions"
+            }
+          ],
+          "id": "261919895",
+          "type": "p"
+        }
+      ],
+      "id": "4226583504"
+    },
+    "tolerance": 1
+  },
+  "id": "892",
+  "objectives": {
+    "1": []
+  },
+  "originalFile": "",
+  "subType": "oli_image_coding",
+  "tags": [],
+  "title": "Image Coding",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

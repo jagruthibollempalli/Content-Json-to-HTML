@@ -1,0 +1,204 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "977459384",
+                  "type": "p"
+                }
+              ],
+              "id": "2337530329"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "896025335",
+                  "type": "p"
+                }
+              ],
+              "id": "950654306"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1945555361",
+                  "type": "p"
+                }
+              ],
+              "id": "2402667942"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2287404139",
+                    "type": "p"
+                  }
+                ],
+                "id": "2378713432"
+              },
+              "id": "1365860215",
+              "rule": "input like {3245581007}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1958129612",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "If return statement is not used inside the function, the function will return None by default"
+                      }
+                    ],
+                    "id": "1958129612",
+                    "type": "p"
+                  }
+                ],
+                "id": "1796824430"
+              },
+              "id": "740693451",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "If the return statement is not used inside the function, the function will return?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1641131794",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "null"
+              }
+            ],
+            "id": "3101284498",
+            "type": "p"
+          }
+        ],
+        "id": "2823660198"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "None"
+              }
+            ],
+            "id": "3659532348",
+            "type": "p"
+          }
+        ],
+        "id": "3245581007"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Error"
+              }
+            ],
+            "id": "1780442094",
+            "type": "p"
+          }
+        ],
+        "id": "3059410403"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "0"
+              }
+            ],
+            "id": "3999148168",
+            "type": "p"
+          }
+        ],
+        "id": "2713398881"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "If the return statement is not used inside the function, the function will return?"
+            }
+          ],
+          "id": "2477536429",
+          "type": "p"
+        }
+      ],
+      "id": "3441631136"
+    }
+  },
+  "id": "1625",
+  "objectives": {
+    "1": [
+      "962",
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1624",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

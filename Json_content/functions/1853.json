@@ -1,0 +1,562 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2945909288",
+                  "type": "p"
+                }
+              ],
+              "id": "1396019852"
+            }
+          ],
+          "id": "3468529784",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You got it right ."
+                      }
+                    ],
+                    "id": "288919932",
+                    "type": "p"
+                  }
+                ],
+                "id": "1215624351"
+              },
+              "id": "1829496769",
+              "rule": "input contains {25}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about  return value and side effect in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function calls"
+                      },
+                      {
+                        "text": " module."
+                      }
+                    ],
+                    "id": "672739827",
+                    "type": "p"
+                  }
+                ],
+                "id": "2099703926"
+              },
+              "id": "3404318069",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2407996196",
+                  "type": "p"
+                }
+              ],
+              "id": "2323333308"
+            }
+          ],
+          "id": "1339756661",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent"
+                      }
+                    ],
+                    "id": "1230784136",
+                    "type": "p"
+                  }
+                ],
+                "id": "1482669914"
+              },
+              "id": "4001223299",
+              "rule": "input contains {No}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about  return value and side effect in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function calls"
+                      },
+                      {
+                        "text": " module."
+                      }
+                    ],
+                    "id": "2509394546",
+                    "type": "p"
+                  }
+                ],
+                "id": "613418775"
+              },
+              "id": "1647139084",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2542765444",
+                  "type": "p"
+                }
+              ],
+              "id": "363025658"
+            }
+          ],
+          "id": "2502568295",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2691807836",
+                    "type": "p"
+                  }
+                ],
+                "id": "1123677304"
+              },
+              "id": "1404373983",
+              "rule": "input contains {0.1573}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about  return value and side effect in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function calls"
+                      },
+                      {
+                        "text": " module."
+                      }
+                    ],
+                    "id": "504478697",
+                    "type": "p"
+                  }
+                ],
+                "id": "1471974772"
+              },
+              "id": "2356713614",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "3948183079",
+                  "type": "p"
+                }
+              ],
+              "id": "384435752"
+            }
+          ],
+          "id": "83511572",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Congratulations, you solved it correctly "
+                      }
+                    ],
+                    "id": "344662580",
+                    "type": "p"
+                  }
+                ],
+                "id": "2226733761"
+              },
+              "id": "2150738186",
+              "rule": "input contains {no}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about  return value and side effect in "
+                      },
+                      {
+                        "strong": true,
+                        "text": "Function calls"
+                      },
+                      {
+                        "text": " module."
+                      }
+                    ],
+                    "id": "3549414568",
+                    "type": "p"
+                  }
+                ],
+                "id": "3807559005"
+              },
+              "id": "707378609",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "For each of the following function calls, what is the return value and side effect, if any? (yes/no)Function CallReturned ValueSide Effect?pow(5,2)round(0.1572832, 4)",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3848749290",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "308236980",
+        "inputType": "text",
+        "partId": "3468529784"
+      },
+      {
+        "id": "380128762",
+        "inputType": "text",
+        "partId": "1339756661"
+      },
+      {
+        "id": "2819637291",
+        "inputType": "text",
+        "partId": "2502568295"
+      },
+      {
+        "id": "2954665865",
+        "inputType": "text",
+        "partId": "83511572"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "For each of the following function calls, what is the return value and side effect, if any? (yes/no)"
+            }
+          ],
+          "id": "2503375480",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2503375480",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Function Call"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "837492737",
+                  "type": "th"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Returned Value"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "1941235019",
+                  "type": "th"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Side Effect?"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2667124759",
+                  "type": "th"
+                }
+              ],
+              "id": "2891509258",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "pow(5,2)"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "854461364",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "308236980",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3875151562",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "380128762",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2424320895",
+                  "type": "td"
+                }
+              ],
+              "id": "2101806343",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "round(0.1572832, 4)"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "559645311",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "2819637291",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2818523095",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "2954665865",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3886522723",
+                  "type": "td"
+                }
+              ],
+              "id": "3502229499",
+              "type": "tr"
+            }
+          ],
+          "id": "25357",
+          "type": "table"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2503375480",
+          "type": "p"
+        }
+      ],
+      "id": "2912424748"
+    }
+  },
+  "id": "1853",
+  "objectives": {
+    "1339756661": [
+      "963"
+    ],
+    "2502568295": [
+      "963"
+    ],
+    "3468529784": [
+      "963"
+    ],
+    "83511572": [
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1836",
+    "1624"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

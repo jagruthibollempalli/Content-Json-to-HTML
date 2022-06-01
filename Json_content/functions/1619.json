@@ -1,0 +1,137 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "102607227",
+                  "type": "p"
+                }
+              ],
+              "id": "1354749410"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2187277617",
+                    "type": "p"
+                  }
+                ],
+                "id": "2385028888"
+              },
+              "id": "2146939577",
+              "rule": "input contains {min(60,30)}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1032211104",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "min(60,30)"
+                      }
+                    ],
+                    "id": "1032211104",
+                    "type": "p"
+                  }
+                ],
+                "id": "2703223904"
+              },
+              "id": "2724400064",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Call the function to calculate the minimum of the elements 60 and 30. ",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "2035327872",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "397281131",
+        "inputType": "text",
+        "partId": "1"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Call the function to calculate the minimum of the elements 60 and 30. "
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "397281131",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "1387785960",
+          "type": "p"
+        }
+      ],
+      "id": "1752977473"
+    }
+  },
+  "id": "1619",
+  "objectives": {
+    "1": [
+      "962",
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1617",
+    "1612",
+    "1613"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

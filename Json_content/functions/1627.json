@@ -1,0 +1,139 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3282590223",
+                  "type": "p"
+                }
+              ],
+              "id": "3688534951"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "331008158",
+                  "type": "p"
+                }
+              ],
+              "id": "4212626927"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1777082223",
+                  "type": "p"
+                }
+              ],
+              "id": "3915338952"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "2374923781",
+                    "type": "p"
+                  }
+                ],
+                "id": "739823350"
+              },
+              "id": "2214568965",
+              "rule": "input contains {math.sqrt(26)}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "3931761291",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "math.sqrt(26)"
+                      }
+                    ],
+                    "id": "3931761291",
+                    "type": "p"
+                  }
+                ],
+                "id": "1495759606"
+              },
+              "id": "534957493",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Write a function to find the sqrt of 26",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Write a function to find the sqrt of 26"
+            }
+          ],
+          "id": "3204457347",
+          "type": "p"
+        }
+      ],
+      "id": "4006395602"
+    }
+  },
+  "id": "1627",
+  "objectives": {
+    "1": [
+      "964",
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1624",
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

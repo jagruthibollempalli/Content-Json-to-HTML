@@ -1,0 +1,203 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2587270738",
+                  "type": "p"
+                }
+              ],
+              "id": "1111332914"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "4074761244",
+                  "type": "p"
+                }
+              ],
+              "id": "3565478232"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1107704945",
+                  "type": "p"
+                }
+              ],
+              "id": "1817713612"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "4093675258",
+                    "type": "p"
+                  }
+                ],
+                "id": "2997638807"
+              },
+              "id": "3048269872",
+              "rule": "input like {1876812667}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1709413713",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "User-defined functions are defined by the user depending on their need"
+                      }
+                    ],
+                    "id": "1709413713",
+                    "type": "p"
+                  }
+                ],
+                "id": "1340295477"
+              },
+              "id": "3292555303",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "You can also create your own functions, these functions are called?",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "942185020",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Predefined"
+              }
+            ],
+            "id": "331272981",
+            "type": "p"
+          }
+        ],
+        "id": "2282797582"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "user-defined"
+              }
+            ],
+            "id": "1541069114",
+            "type": "p"
+          }
+        ],
+        "id": "1876812667"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "functions"
+              }
+            ],
+            "id": "3182480884",
+            "type": "p"
+          }
+        ],
+        "id": "3063948825"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "None"
+              }
+            ],
+            "id": "2220119119",
+            "type": "p"
+          }
+        ],
+        "id": "3735116031"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "You can also create your own functions, these functions are called?"
+            }
+          ],
+          "id": "1077955436",
+          "type": "p"
+        }
+      ],
+      "id": "1474048727"
+    }
+  },
+  "id": "1626",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1624",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

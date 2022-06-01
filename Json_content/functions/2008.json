@@ -1,0 +1,1172 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "For each statement, mention \"yes\" if it displays any side effect, else \"no\" and also enter retrurn of the statements.  "
+                    }
+                  ],
+                  "id": "4236906267",
+                  "type": "p"
+                }
+              ],
+              "id": "268141123"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "The abs() function returns the absolute value of the specified number"
+                    }
+                  ],
+                  "id": "356683273",
+                  "type": "p"
+                }
+              ],
+              "id": "396239238"
+            }
+          ],
+          "id": "1357265609",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done!"
+                      }
+                    ],
+                    "id": "3745242006",
+                    "type": "p"
+                  }
+                ],
+                "id": "561708781"
+              },
+              "id": "1894684505",
+              "rule": "input contains {1}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Read the question carefully and try to attempt it. "
+                      }
+                    ],
+                    "id": "4173458985",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "4173458985",
+                    "type": "p"
+                  }
+                ],
+                "id": "968022288"
+              },
+              "id": "3560824441",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sometimes a function changes the program state in an observable way as it is running; for example, it might display values in the interpreter, or modify a file, or produce graphics. This is called a side effect."
+                    }
+                  ],
+                  "id": "3601496936",
+                  "type": "p"
+                }
+              ],
+              "id": "467361725"
+            }
+          ],
+          "id": "490340338",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Awsome"
+                      }
+                    ],
+                    "id": "4146035842",
+                    "type": "p"
+                  }
+                ],
+                "id": "2407403739"
+              },
+              "id": "62769947",
+              "rule": "input contains {no}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "3024255435",
+                    "type": "p"
+                  }
+                ],
+                "id": "1128743400"
+              },
+              "id": "2260630122",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "For each statement, mention \"yes\" if it displays any side effect, else \"no\" and also enter retrurn of the statements. "
+                    }
+                  ],
+                  "id": "2765767349",
+                  "type": "p"
+                }
+              ],
+              "id": "17211063"
+            }
+          ],
+          "id": "1665975082",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Keep going !"
+                      }
+                    ],
+                    "id": "968244233",
+                    "type": "p"
+                  }
+                ],
+                "id": "2517392372"
+              },
+              "id": "842087663",
+              "rule": "input contains {hello}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "2632754489",
+                    "type": "p"
+                  }
+                ],
+                "id": "1977465905"
+              },
+              "id": "2187345450",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sometimes a function changes the program state in an observable way as it is running; for example, it might display values in the interpreter, or modify a file, or produce graphics. This is called a side effect."
+                    }
+                  ],
+                  "id": "2696552405",
+                  "type": "p"
+                }
+              ],
+              "id": "2898286320"
+            }
+          ],
+          "id": "2318191459",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Correct"
+                      }
+                    ],
+                    "id": "872306499",
+                    "type": "p"
+                  }
+                ],
+                "id": "678012268"
+              },
+              "id": "1603316387",
+              "rule": "input contains {answer}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "67838070",
+                    "type": "p"
+                  }
+                ],
+                "id": "3450762141"
+              },
+              "id": "3920460102",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "For each statement, mention \"yes\" if it displays any side effect, else \"no\" and also enter retrurn of the statements. "
+                    }
+                  ],
+                  "id": "2526080742",
+                  "type": "p"
+                }
+              ],
+              "id": "3307061445"
+            }
+          ],
+          "id": "3552611676",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Excellent "
+                      }
+                    ],
+                    "id": "2457638975",
+                    "type": "p"
+                  }
+                ],
+                "id": "2686854528"
+              },
+              "id": "2373907288",
+              "rule": "input contains {4.0}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "82296388",
+                    "type": "p"
+                  }
+                ],
+                "id": "1280557219"
+              },
+              "id": "2506749012",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sometimes a function changes the program state in an observable way as it is running; for example, it might display values in the interpreter, or modify a file, or produce graphics. This is called a side effect"
+                    }
+                  ],
+                  "id": "3319615320",
+                  "type": "p"
+                }
+              ],
+              "id": "3884942378"
+            }
+          ],
+          "id": "964253633",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Smart!"
+                      }
+                    ],
+                    "id": "2539819676",
+                    "type": "p"
+                  }
+                ],
+                "id": "495792354"
+              },
+              "id": "1737888466",
+              "rule": "input contains {yes}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "956167440",
+                    "type": "p"
+                  }
+                ],
+                "id": "4127733358"
+              },
+              "id": "3687209590",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "For each statement, mention \"yes\" if it displays any side effect, else \"no\" and also enter retrurn of the statements. "
+                    }
+                  ],
+                  "id": "712509104",
+                  "type": "p"
+                }
+              ],
+              "id": "2700003699"
+            }
+          ],
+          "id": "3280078433",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You are right. "
+                      }
+                    ],
+                    "id": "4284045910",
+                    "type": "p"
+                  }
+                ],
+                "id": "1960518030"
+              },
+              "id": "2818486830",
+              "rule": "input contains {None}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Nothing to worry, Try again."
+                      }
+                    ],
+                    "id": "1994775275",
+                    "type": "p"
+                  }
+                ],
+                "id": "1153594537"
+              },
+              "id": "4213290703",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sometimes a function changes the program state in an observable way as it is running; for example, it might display values in the interpreter, or modify a file, or produce graphics. This is called a side effect"
+                    }
+                  ],
+                  "id": "4205475616",
+                  "type": "p"
+                }
+              ],
+              "id": "1441109531"
+            }
+          ],
+          "id": "2785458324",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done again !"
+                      }
+                    ],
+                    "id": "2309255484",
+                    "type": "p"
+                  }
+                ],
+                "id": "3137055992"
+              },
+              "id": "3942899524",
+              "rule": "input contains {yes}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "2684761105",
+                    "type": "p"
+                  }
+                ],
+                "id": "1424590566"
+              },
+              "id": "3842662134",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "For each statement, mention \"yes\" if it displays any side effect, else \"no\" and also enter retrurn of the statements. "
+                    }
+                  ],
+                  "id": "1795637941",
+                  "type": "p"
+                }
+              ],
+              "id": "742114206"
+            }
+          ],
+          "id": "2258889172",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Good job!"
+                      }
+                    ],
+                    "id": "1720833961",
+                    "type": "p"
+                  }
+                ],
+                "id": "2174622481"
+              },
+              "id": "1781622127",
+              "rule": "input contains {str}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "211456640",
+                    "type": "p"
+                  }
+                ],
+                "id": "3250729291"
+              },
+              "id": "1237458074",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sometimes a function changes the program state in an observable way as it is running; for example, it might display values in the interpreter, or modify a file, or produce graphics. This is called a side effect"
+                    }
+                  ],
+                  "id": "3133889255",
+                  "type": "p"
+                }
+              ],
+              "id": "1664369127"
+            }
+          ],
+          "id": "1742601636",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Congratulations!! you solved the question correctly."
+                      }
+                    ],
+                    "id": "3850607110",
+                    "type": "p"
+                  }
+                ],
+                "id": "1485386216"
+              },
+              "id": "2905834133",
+              "rule": "input contains {no}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Try taking help from hints. If you still find it difficult to solve. Please refer to the content again"
+                      }
+                    ],
+                    "id": "343872474",
+                    "type": "p"
+                  }
+                ],
+                "id": "3937974478"
+              },
+              "id": "2047045557",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "For each of the following function calls, what is the return value and side effect, if any? (yes/no)Function CallReturned ValueSide Effect?abs(-1)print('hello')print(float(4))print('None')type('110 rocks!')",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "3651601203",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "3940494600",
+        "inputType": "text",
+        "partId": "1357265609"
+      },
+      {
+        "id": "226726278",
+        "inputType": "text",
+        "partId": "490340338"
+      },
+      {
+        "id": "923905130",
+        "inputType": "text",
+        "partId": "1665975082"
+      },
+      {
+        "id": "838580931",
+        "inputType": "text",
+        "partId": "2318191459"
+      },
+      {
+        "id": "2190370024",
+        "inputType": "text",
+        "partId": "3552611676"
+      },
+      {
+        "id": "1367461602",
+        "inputType": "text",
+        "partId": "964253633"
+      },
+      {
+        "id": "492716048",
+        "inputType": "text",
+        "partId": "3280078433"
+      },
+      {
+        "id": "2267797087",
+        "inputType": "text",
+        "partId": "2785458324"
+      },
+      {
+        "id": "1234901725",
+        "inputType": "text",
+        "partId": "2258889172"
+      },
+      {
+        "id": "2937728369",
+        "inputType": "text",
+        "partId": "1742601636"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "For each of the following function calls, what is the return value and side effect, if any? (yes/no)"
+            }
+          ],
+          "id": "2723318446",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Function Call"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3892380981",
+                  "type": "th"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Returned Value"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "1102858475",
+                  "type": "th"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "Side Effect?"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2422816610",
+                  "type": "th"
+                }
+              ],
+              "id": "3631024608",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "abs(-1)"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "1198133322",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "3940494600",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "1462903948",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "226726278",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3553576229",
+                  "type": "td"
+                }
+              ],
+              "id": "1381897959",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "print('hello')"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "359428967",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "923905130",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2490306652",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "838580931",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3979258376",
+                  "type": "td"
+                }
+              ],
+              "id": "1281849446",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "print(float(4))"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3470982068",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "2190370024",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "684133476",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "1367461602",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "3718067865",
+                  "type": "td"
+                }
+              ],
+              "id": "3531039451",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "print('None')"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "1691761174",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "492716048",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "285787",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "2267797087",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "4009256066",
+                  "type": "td"
+                }
+              ],
+              "id": "659793497",
+              "type": "tr"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": "type('110 rocks!')"
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "1362126716",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "1234901725",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "2941268662",
+                  "type": "td"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "id": "2937728369",
+                          "type": "input_ref"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ],
+                  "id": "788894311",
+                  "type": "td"
+                }
+              ],
+              "id": "3044026719",
+              "type": "tr"
+            }
+          ],
+          "id": "2465862276",
+          "type": "table"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2009522851",
+          "type": "p"
+        }
+      ],
+      "id": "2872603314"
+    }
+  },
+  "id": "2008",
+  "objectives": {
+    "1357265609": [
+      "963"
+    ],
+    "1665975082": [
+      "963"
+    ],
+    "1742601636": [
+      "963"
+    ],
+    "2258889172": [
+      "963"
+    ],
+    "2318191459": [
+      "963"
+    ],
+    "2785458324": [
+      "963"
+    ],
+    "3280078433": [
+      "963"
+    ],
+    "3552611676": [
+      "963"
+    ],
+    "490340338": [
+      "963"
+    ],
+    "964253633": [
+      "963"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1638",
+    "1834"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

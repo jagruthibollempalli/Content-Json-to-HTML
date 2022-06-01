@@ -1,0 +1,336 @@
+{
+  "content": {
+    "authoring": {
+      "correct": [
+        [
+          "2746412890",
+          "303636142",
+          "2152317849"
+        ],
+        "2492461530"
+      ],
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What would be output of each line if this code snippet is executed.?"
+                    }
+                  ],
+                  "id": "4269633289",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "select those values from listed options. "
+                    }
+                  ],
+                  "id": "4269633289",
+                  "type": "p"
+                }
+              ],
+              "id": "2140606831"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Given value of age is 21, There are three print statements. Operations on the variables are done and displayed on the console."
+                    }
+                  ],
+                  "id": "3882693292",
+                  "type": "p"
+                }
+              ],
+              "id": "2329580732"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "As age = 21, "
+                    }
+                  ],
+                  "id": "2198811919",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "print(age + 5) will print 26 as isum of 21 and 5 is 26 ."
+                    }
+                  ],
+                  "id": "2894598733",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "print(age % 4) will print 1 as it is remainder when 21 is divided by 4. "
+                    }
+                  ],
+                  "id": "2894598733",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "print(age * 3) will print 63 as multiplication of 21 and 3 is 63."
+                    }
+                  ],
+                  "id": "2894598733",
+                  "type": "p"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2894598733",
+                  "type": "p"
+                }
+              ],
+              "id": "2122959402"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done !"
+                      }
+                    ],
+                    "id": "3567114637",
+                    "type": "p"
+                  }
+                ],
+                "id": "2874177912"
+              },
+              "id": "2492461530",
+              "rule": "(!(input like {3483694449})) && ((!(input like {1631122191})) && ((!(input like {3919798935})) && (input like {2152317849} && (input like {303636142} && (input like {2746412890})))))",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Don't worry. "
+                      }
+                    ],
+                    "id": "1196838968",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Re-read the question, understand what is asked in the question. Try to make use of hints and give an attempt "
+                      }
+                    ],
+                    "id": "1196838968",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "If you are still facing difficulty go through the content and start again."
+                      }
+                    ],
+                    "id": "1196838968",
+                    "type": "p"
+                  }
+                ],
+                "id": "773567760"
+              },
+              "id": "1147800305",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Check all that are applicable from the options below, what the following code would print to the console.age = 21print(age + 5)print(age % 4)print(age * 3)",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "1428852305",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "26"
+              }
+            ],
+            "id": "3932838506",
+            "type": "p"
+          }
+        ],
+        "id": "2746412890"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "28"
+              }
+            ],
+            "id": "1600271783",
+            "type": "p"
+          }
+        ],
+        "id": "3919798935"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "1"
+              }
+            ],
+            "id": "2799744555",
+            "type": "p"
+          }
+        ],
+        "id": "303636142"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "0"
+              }
+            ],
+            "id": "2320911368",
+            "type": "p"
+          }
+        ],
+        "id": "1631122191"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "63"
+              }
+            ],
+            "id": "425625828",
+            "type": "p"
+          }
+        ],
+        "id": "2152317849"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "64"
+              }
+            ],
+            "id": "3991831531",
+            "type": "p"
+          }
+        ],
+        "id": "3483694449"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Check all that are applicable from the options below, what the following code would print to the console."
+            }
+          ],
+          "id": "2894598733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "age = 21"
+            }
+          ],
+          "id": "2894598733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(age + 5)"
+            }
+          ],
+          "id": "2894598733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(age % 4)"
+            }
+          ],
+          "id": "2894598733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(age * 3)"
+            }
+          ],
+          "id": "2894598733",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2894598733",
+          "type": "p"
+        }
+      ],
+      "id": "460081156"
+    }
+  },
+  "id": "1848",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_check_all_that_apply",
+  "tags": [
+    "1638"
+  ],
+  "title": "Check All That Apply",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,128 @@
+{
+  "content": {
+    "model": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "*\"Pretest is a way to find out concepts that you may be confused about. Getting a low score in the pretest is an opportunity to learn something new. Answer all the questions given below to the best of your ability.\" *"
+                  }
+                ],
+                "id": "23998171",
+                "type": "p"
+              }
+            ],
+            "type": "blockquote"
+          },
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "id": "687969888",
+            "type": "p"
+          }
+        ],
+        "id": "1206575010",
+        "purpose": "none",
+        "type": "content"
+      },
+      {
+        "count": 8,
+        "id": "4130815733",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  965
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "equals",
+                "value": [
+                  1836,
+                  1617
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      },
+      {
+        "count": 8,
+        "id": "1142043123",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  966
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "equals",
+                "value": [
+                  1836,
+                  1617
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      },
+      {
+        "count": 8,
+        "id": "3208456206",
+        "logic": {
+          "conditions": {
+            "children": [
+              {
+                "fact": "objectives",
+                "operator": "contains",
+                "value": [
+                  967
+                ]
+              },
+              {
+                "fact": "tags",
+                "operator": "equals",
+                "value": [
+                  1836,
+                  1617
+                ]
+              }
+            ],
+            "operator": "all"
+          }
+        },
+        "purpose": "checkpoint",
+        "type": "selection"
+      }
+    ]
+  },
+  "id": "1915",
+  "isGraded": false,
+  "objectives": [],
+  "originalFile": "",
+  "tags": [],
+  "title": "Pre-Test",
+  "type": "Page",
+  "unresolvedReferences": []
+}

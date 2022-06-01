@@ -1,0 +1,418 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What would be the output of the line if this code snippet is executed.? "
+                    }
+                  ],
+                  "id": "2596328968",
+                  "type": "p"
+                }
+              ],
+              "id": "3177871374"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Given the value of age is 21, There is the print statement of age minus 4. Operations on the variables are done and displayed on the console."
+                    }
+                  ],
+                  "id": "1917231417",
+                  "type": "p"
+                }
+              ],
+              "id": "411683301"
+            }
+          ],
+          "id": "3972404732",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done!"
+                      }
+                    ],
+                    "id": "3097493807",
+                    "type": "p"
+                  }
+                ],
+                "id": "3098957471"
+              },
+              "id": "2932619396",
+              "rule": "input = {16}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Don't worry. "
+                      }
+                    ],
+                    "id": "3525420854",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Re-read the question and understand what is asked in the question. Try to make use of hints and give an attempt "
+                      }
+                    ],
+                    "id": "1196838968",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "If you are still facing difficulty go through the content and start again."
+                      }
+                    ],
+                    "id": "1196838968",
+                    "type": "p"
+                  }
+                ],
+                "id": "3655965718"
+              },
+              "id": "673009981",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What would be the output of the line if this code snippet is executed.? "
+                    }
+                  ],
+                  "id": "4037579149",
+                  "type": "p"
+                }
+              ],
+              "id": "727522620"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Given the value of age is 21, There is the print statement of age modulus by 4. Operations on the variables are done and displayed on the console."
+                    }
+                  ],
+                  "id": "2833890941",
+                  "type": "p"
+                }
+              ],
+              "id": "1119518992"
+            }
+          ],
+          "id": "1656752811",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done!"
+                      }
+                    ],
+                    "id": "1314449618",
+                    "type": "p"
+                  }
+                ],
+                "id": "718564478"
+              },
+              "id": "2580373090",
+              "rule": "input = {1}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Don't worry. "
+                      }
+                    ],
+                    "id": "3705349135",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Re-read the question and understand what is asked in the question. Try to make use of hints and give an attempt "
+                      }
+                    ],
+                    "id": "1196838968",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "If you are still facing difficulty go through the content and start again."
+                      }
+                    ],
+                    "id": "1196838968",
+                    "type": "p"
+                  }
+                ],
+                "id": "2976176497"
+              },
+              "id": "103873103",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        },
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "What would be the output of the line if this code snippet is executed? "
+                    }
+                  ],
+                  "id": "1473316045",
+                  "type": "p"
+                }
+              ],
+              "id": "1419258462"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Given value of age is 21, There is the print statement of age divided by 3. Operations on the variables are done and displayed on the console."
+                    }
+                  ],
+                  "id": "2178127337",
+                  "type": "p"
+                }
+              ],
+              "id": "1182328835"
+            }
+          ],
+          "id": "2463976290",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well done!"
+                      }
+                    ],
+                    "id": "4286906117",
+                    "type": "p"
+                  }
+                ],
+                "id": "3802447365"
+              },
+              "id": "2433699988",
+              "rule": "input = {7.0}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Don't worry. "
+                      }
+                    ],
+                    "id": "2532892175",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Re-read the question and understand what is asked in the question. Try to make use of hints and give an attempt "
+                      }
+                    ],
+                    "id": "1196838968",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "If you are still facing difficulty go through the content and start again."
+                      }
+                    ],
+                    "id": "1196838968",
+                    "type": "p"
+                  }
+                ],
+                "id": "1137919904"
+              },
+              "id": "3094105048",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "what the following lines would print to the consoleage = 21print(age - 5)print(age % 4)print(age / 3)",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "177959909",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ]
+    },
+    "choices": [],
+    "inputs": [
+      {
+        "id": "2616801509",
+        "inputType": "numeric",
+        "partId": "3972404732"
+      },
+      {
+        "id": "3232371228",
+        "inputType": "numeric",
+        "partId": "1656752811"
+      },
+      {
+        "id": "768206421",
+        "inputType": "numeric",
+        "partId": "2463976290"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "what the following lines would print to the console"
+            }
+          ],
+          "id": "2935700728",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "age = 21"
+            }
+          ],
+          "id": "2935700728",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(age - 5)"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "2616801509",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2935700728",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(age % 4)"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "3232371228",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "2935700728",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "print(age / 3)"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "id": "768206421",
+              "type": "input_ref"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "id": "1759351068",
+          "type": "p"
+        }
+      ],
+      "id": "4250523897"
+    }
+  },
+  "id": "2001",
+  "objectives": {
+    "1656752811": [
+      "962"
+    ],
+    "2463976290": [
+      "962"
+    ],
+    "3972404732": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multi_input",
+  "tags": [
+    "1638",
+    "1834"
+  ],
+  "title": "Multi Input",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

@@ -1,0 +1,203 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "1604317122",
+                  "type": "p"
+                }
+              ],
+              "id": "2163894393"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "2460656310",
+                  "type": "p"
+                }
+              ],
+              "id": "2535809325"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3176935199",
+                  "type": "p"
+                }
+              ],
+              "id": "2206747066"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "1941459242",
+                    "type": "p"
+                  }
+                ],
+                "id": "1075416039"
+              },
+              "id": "3145452847",
+              "rule": "input like {1093621388}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1967875778",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "help() function is used to get help related to the object passed during the call"
+                      }
+                    ],
+                    "id": "1967875778",
+                    "type": "p"
+                  }
+                ],
+                "id": "3138384740"
+              },
+              "id": "1145769349",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "Choose the correct built-in functions from the following",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "561575150",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "length()"
+              }
+            ],
+            "id": "2161268057",
+            "type": "p"
+          }
+        ],
+        "id": "2095194727"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "help()"
+              }
+            ],
+            "id": "1673773068",
+            "type": "p"
+          }
+        ],
+        "id": "1093621388"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "Print()"
+              }
+            ],
+            "id": "2657276275",
+            "type": "p"
+          }
+        ],
+        "id": "2567480927"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "integer()"
+              }
+            ],
+            "id": "811467895",
+            "type": "p"
+          }
+        ],
+        "id": "3730549402"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "Choose the correct built-in functions from the following"
+            }
+          ],
+          "id": "3435360953",
+          "type": "p"
+        }
+      ],
+      "id": "2802099162"
+    }
+  },
+  "id": "1618",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_multiple_choice",
+  "tags": [
+    "1617",
+    "1612",
+    "1613"
+  ],
+  "title": "Multiple Choice",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

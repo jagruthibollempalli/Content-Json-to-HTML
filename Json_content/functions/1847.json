@@ -1,0 +1,220 @@
+{
+  "content": {
+    "authoring": {
+      "correct": [
+        [
+          "270629937",
+          "401177176",
+          "79970334",
+          "3817811223"
+        ],
+        "1051483990"
+      ],
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "2041367834",
+                  "type": "p"
+                }
+              ],
+              "id": "49816534"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "1413163537",
+                  "type": "p"
+                }
+              ],
+              "id": "3263486312"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Sorry, hints are not available for the graded tests."
+                    }
+                  ],
+                  "id": "3840106198",
+                  "type": "p"
+                }
+              ],
+              "id": "1649777080"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Congratulations."
+                      }
+                    ],
+                    "id": "4006837157",
+                    "type": "p"
+                  }
+                ],
+                "id": "893581037"
+              },
+              "id": "1051483990",
+              "rule": "input like {270629937 401177176 79970334 3817811223}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can learn about pre-built function in Function calls module"
+                      }
+                    ],
+                    "id": "2659216566",
+                    "type": "p"
+                  }
+                ],
+                "id": "2768240110"
+              },
+              "id": "2387770069",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "write a code that takes a variable x which holds a number as a string, turns it into an integer, and then prints 5 times the numberFor example, if x = \"16\", then your line of code should produce 80Rearrange the options such that the lines satisfies the above problem statement.",
+      "targeted": [],
+      "transformations": [
+        {
+          "id": "784679734",
+          "operation": "shuffle",
+          "path": "choices"
+        }
+      ],
+      "version": 2
+    },
+    "choices": [
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": " x = \"16\""
+              }
+            ],
+            "id": "2013115240",
+            "type": "p"
+          }
+        ],
+        "id": "270629937"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "a = int(x)"
+              }
+            ],
+            "id": "1080290641",
+            "type": "p"
+          }
+        ],
+        "id": "401177176"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "b = 5*a"
+              }
+            ],
+            "id": "1269446442",
+            "type": "p"
+          }
+        ],
+        "id": "79970334"
+      },
+      {
+        "content": [
+          {
+            "children": [
+              {
+                "text": "print(b)"
+              }
+            ],
+            "id": "2830144801",
+            "type": "p"
+          }
+        ],
+        "id": "3817811223"
+      }
+    ],
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": "write a code that takes a variable x which holds a number as a string, turns it into an integer, and then prints 5 times the number"
+            }
+          ],
+          "id": "254752864",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "For example, if x = \"16\", then your line of code should produce 80"
+            }
+          ],
+          "id": "254752864",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "Rearrange the options such that the lines satisfies the above problem statement."
+            }
+          ],
+          "id": "254752864",
+          "type": "p"
+        }
+      ],
+      "id": "1443393674"
+    }
+  },
+  "id": "1847",
+  "objectives": {
+    "1": [
+      "962"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_ordering",
+  "tags": [
+    "1836",
+    "1624"
+  ],
+  "title": "Ordering",
+  "type": "Activity",
+  "unresolvedReferences": []
+}

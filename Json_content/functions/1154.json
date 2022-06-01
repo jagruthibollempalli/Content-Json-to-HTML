@@ -1,0 +1,156 @@
+{
+  "content": {
+    "authoring": {
+      "parts": [
+        {
+          "hints": [
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": "Trace the  code"
+                    }
+                  ],
+                  "id": "2032070324",
+                  "type": "p"
+                }
+              ],
+              "id": "644511283"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "816802050",
+                  "type": "p"
+                }
+              ],
+              "id": "173996000"
+            },
+            {
+              "content": [
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "id": "3847124295",
+                  "type": "p"
+                }
+              ],
+              "id": "3638644982"
+            }
+          ],
+          "id": "1",
+          "responses": [
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Well Done"
+                      }
+                    ],
+                    "id": "349306266",
+                    "type": "p"
+                  }
+                ],
+                "id": "3597894743"
+              },
+              "id": "3719597554",
+              "rule": "input contains {15}",
+              "score": 1
+            },
+            {
+              "feedback": {
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Incorrect"
+                      }
+                    ],
+                    "id": "1877330261",
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "print x value 15"
+                      }
+                    ],
+                    "id": "1877330261",
+                    "type": "p"
+                  }
+                ],
+                "id": "3731483503"
+              },
+              "id": "4268675531",
+              "rule": "input like {.*}",
+              "score": 0
+            }
+          ],
+          "scoringStrategy": "average"
+        }
+      ],
+      "previewText": "What is the output?",
+      "transformations": []
+    },
+    "inputType": "text",
+    "stem": {
+      "content": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "684448646",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "2261714305",
+          "src": "data:image/png;base64,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",
+          "type": "img"
+        },
+        {
+          "children": [
+            {
+              "text": "What is the output?"
+            }
+          ],
+          "id": "3849268970",
+          "type": "p"
+        }
+      ],
+      "id": "2547572730"
+    }
+  },
+  "id": "1154",
+  "objectives": {
+    "1": [
+      "966"
+    ]
+  },
+  "originalFile": "",
+  "subType": "oli_short_answer",
+  "tags": [
+    "1612",
+    "1613"
+  ],
+  "title": "Single Response",
+  "type": "Activity",
+  "unresolvedReferences": []
+}
