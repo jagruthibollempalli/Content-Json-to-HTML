@@ -9,16 +9,7 @@ let response = await fetch(url);
 let jsondata = await response.json()
 return jsondata;
 }
-
-// function WriteFile()
-// {
-//    var Scr = new ActiveXObject("Scripting.FileSystemObject");
-//    var CTF = Scr.CreateTextFile("example.html", true, true);
-//    CTF.WriteLine("hello");
-//    CTF.Close();
-// } 
-
-              
+            
 async function tagfunction(tagid) {
     data = await getJson(apiUrl)
     // console.log(data);
@@ -26,6 +17,7 @@ async function tagfunction(tagid) {
 const modules = []
 const pages =[]
 const dir = {}
+const project=[]
 for(var u in data.children) {
     // console.log(u)
     const mod = []
@@ -37,9 +29,17 @@ for(var u in data.children) {
         mod.push(data.children[u].children[m].title)
         }
         else{
-            str = data.children[u].title
-            project = str.replace('[Project]', '');
-            mod.push("<li style='color:blue;font-size:smaller;list-style:square'><a href='#'>"+project+"</li>")
+            // str = data.children[u].title
+            // project = str.replace('[Project]', '');
+            // mod.push("<li style='color:blue;font-size:smaller;list-style:square'><a href='#'>"+project+"</li>")
+            var idrefval1 = data.children[u].children[m].idref
+            var url1 = 'https://raw.githubusercontent.com/jagruthibollempalli/Content-Json-to-HTML/main/Json_content/functions/'+idrefval1+'.json'
+            // console.log(url)
+            var pagedata1 = await getJson(url1)
+            //console.log(pagedata);
+            project.push(pagedata1.title)
+            dir[idrefval1]=pagedata1.title
+            mod.push(pagedata1.title)
         }
         const p = []
 
@@ -54,32 +54,7 @@ for(var u in data.children) {
             //console.log(pagedata);
            
             p.push(pagedata.title)
-            dir[idrefval]=pagedata.title
-            if(nl.includes(pagedata.title)== false){
-                // dir[idrefval]=pagedata.title
-                // console.log(pagedata)
-                // click(pagedata)
-                // var c = document.getElementById(pagedata.title);
-                // console.log(c)
-                // for(var i = 0;i<=pagedata.content.model.length-1;i++){
-                //    if(pagedata.content.model[i].type=='content'){
-                //        var k = pagedata.content.model[i].children
-                //        for(var j in k){
-                //         text = k[j].children
-                //         for(var le =0;le<= text.length-1;le++){
-                //             console.log(text[le])
-                //             var d = document.createElement('p');
-                //             console.log(text[le].text)
-                //             d.innerText = text[le].text;
-                //             // c.appendChild(d);
-                        
-                //         }
-                        
-                //         }
-                //    }
-                // //   c.appendChild(d);
-                // }      
-                }              
+            dir[idrefval]=pagedata.title              
         }
         page.push(p)
     }
@@ -92,26 +67,29 @@ for(var u in data.children) {
 
 idref = tagid
 console.log(idref)
-var url = 'https://raw.githubusercontent.com/jagruthibollempalli/Content-Json-to-HTML/main/Json_content/functions/'+idref+'.json'
+var url2 = 'https://raw.githubusercontent.com/jagruthibollempalli/Content-Json-to-HTML/main/Json_content/functions/'+idref+'.json'
 
-var pagedata = await getJson(url)
-console.log(pagedata)
-var c = document.getElementById(dir[tagid]);
+var pagedata2 = await getJson(url2)
+console.log(pagedata2)
+var c = document.getElementById(dir[tagid]+'_'+idref);
 // console.log(c)
-for(var i = 0;i<=pagedata.content.model.length-1;i++){
-    if(pagedata.content.model[i].type=='content'){
-        var k = pagedata.content.model[i].children
+for(var i = 0;i<=pagedata2.content.model.length-1;i++){
+    if(pagedata2.content.model[i].type=='content'){
+        var k = pagedata2.content.model[i].children
         console.log(k)
         for(var j in k){
             console.log(typeof k[j].type)
         text = k[j].children
+        
         for(var le =0;le<= text.length-1;le++){
+            console.log('children' in k[j].children[le])
+           
             console.log(text[le])
-            
             var d = document.createElement(k[j].type);
             console.log(text[le].text)
             d.innerText = text[le].text;
             c.appendChild(d);
+        
         
         }
         

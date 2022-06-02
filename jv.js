@@ -19,57 +19,71 @@ return jsondata;
 
 
 data = require("C:/Users/jagru/OneDrive/Desktop/msit/DESKFILES/MSIT/New folder/export_functions/_hierarchy.json");
-console.log(data);
+// console.log(data);
 const units= []
 const modules = []
 const pages =[]
+project=[]
 for(var u in data.children) {
-    console.log(u)
+    // console.log(u)
     const mod = []
     const page=[]
     units.push(data.children[u].title)
     for(var m in data.children[u].children){
         
         if('title' in data.children[u].children[m]){
-        mod.push(data.children[u].children[m].title)
+             mod.push(data.children[u].children[m].title)
+             console.log(data.children[u].children[m].title)
         }
         else{
-            str = data.children[u].title
-            project = str.replace('[Project]', '');
-            mod.push("<li style='color:blue;font-size:smaller;list-style:square'><a href='#'>"+project+"</li>")
+            var idrefval1 = data.children[u].children[m].idref
+            var url = "C:/Users/jagru/OneDrive/Desktop/msit/DESKFILES/MSIT/New folder/export_functions/" +idrefval1+".json"
+            var pagedata1 = require(url);
+            mod.push(pagedata1.title);
+            console.log(pagedata1.title)
+            var name1 = pagedata1.title+'_'+idrefval1;
+            var fs = require('fs');
+            let data1 = "<html><head><script src ='page.js'></script></head><body><div id ='"+name1+"'><script>tagfunction('"+idrefval1+"')</script></div></body></html>";
+            fs.writeFile(name1+'.html',data1, function (err, file) {
+                if (err) throw err;
+                console.log('File is opened in write mode.');
+            });
+        
         }
         const p = []
         for(var pa in data.children[u].children[m].children){
             // console.log(data.children[u].children[0])
             // console.log(data.children[u].children[m].children[0])
+            
             var idrefval = data.children[u].children[m].children[pa].idref
-            var nl = ['Pre-Test','Overview','Post-Test']
+            var nl = []
             var url = "C:/Users/jagru/OneDrive/Desktop/msit/DESKFILES/MSIT/New folder/export_functions/" +idrefval+".json"
             // console.log(url)
             var pagedata = require(url);
             //console.log(pagedata);
-            p.push(pagedata.title)
-            if(nl.includes(pagedata.title)== false){
-                console.log(pagedata)
-                // var myFile = new File(["<html><body><h1></h1>hello</body></html>"], "demo.html", {type: "text/plain;charset=utf-8"});
-                // saveAs(myFile);
-                
-                var fs = require('fs');
-                let data = "<html><head><script src ='page.js'></script></head><body><div id ='"+pagedata.title+"'><script>tagfunction('"+pagedata.title+"')</script></div></body></html>"
-                fs.writeFile(pagedata.title+'.html',data, function (err, file) {
-                  if (err) throw err;
-                  console.log('File is opened in write mode.');
-                });
+            p.push(pagedata.title);
+            
+            // console.log(pagedata);
+            // var myFile = new File(["<html><body><h1></h1>hello</body></html>"], "demo.html", {type: "text/plain;charset=utf-8"});
+            // saveAs(myFile);
+            
+            var fs = require('fs');
+            var name = pagedata.title+'_'+idrefval;
+            let data1 = "<html><head><script src ='page.js'></script></head><body><div id ='"+name+"'><script>tagfunction('"+idrefval+"')</script></div></body></html>";
+            fs.writeFile(name+'.html',data1, function (err, file) {
+                if (err) throw err;
+                console.log('File is opened in write mode.');
+            });
                                 
-                }
+                
             
         }
-        page.push(p)
+        page.push(p);
     }
-    modules.push(mod)
-    pages.push(page)
+    modules.push(mod);
+    pages.push(page);
     
 }
-console.log(pages)
+// console.log(pages)
 
 
