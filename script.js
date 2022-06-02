@@ -17,28 +17,28 @@ return jsondata;
 //    CTF.WriteLine("hello");
 //    CTF.Close();
 // } 
-function click(pagedata)
-{
-    var c = document.getElementById(pagedata.title);
-        for(var i = 0;i<=pagedata.content.model.length-1;i++){
-            if(pagedata.content.model[i].type=='content'){
-                var k = pagedata.content.model[i].children
-                for(var j in k){
-                text = k[j].children
-                for(var le =0;le<= text.length-1;le++){
-                    console.log(text[le])
-                    var d = document.createElement('p');
-                    console.log(text[le].text)
-                    d.innerText = text[le].text;
-                    c.appendChild(d);
+// function click(pagedata)
+// {
+//     var c = document.getElementById(pagedata.title);
+//         for(var i = 0;i<=pagedata.content.model.length-1;i++){
+//             if(pagedata.content.model[i].type=='content'){
+//                 var k = pagedata.content.model[i].children
+//                 for(var j in k){
+//                 text = k[j].children
+//                 for(var le =0;le<= text.length-1;le++){
+//                     console.log(text[le])
+//                     var d = document.createElement('p');
+//                     console.log(text[le].text)
+//                     d.innerText = text[le].text;
+//                     c.appendChild(d);
                 
-                }
+//                 }
                 
-                }
-            }
-        //   c.appendChild(d);
-        }           
-}
+//                 }
+//             }
+//         //   c.appendChild(d);
+//         }           
+// }
               
 async function main() {
     data = await getJson(apiUrl)
@@ -53,7 +53,7 @@ for(var u in data.children) {
     const page=[]
     units.push(data.children[u].title)
     for(var m in data.children[u].children){
-        
+        console.log(data.children[u].children)
         if('title' in data.children[u].children[m]){
         mod.push(data.children[u].children[m].title)
         }
@@ -68,6 +68,7 @@ for(var u in data.children) {
             // console.log(data.children[u].children[0])
             // console.log(data.children[u].children[m].children[0])
             var idrefval = data.children[u].children[m].children[pa].idref
+            console.log(data.children[u].children[m].children[pa])
             var nl = ['Pre-Test','Overview','Post-Test']
             var url = 'https://raw.githubusercontent.com/jagruthibollempalli/Content-Json-to-HTML/main/Json_content/functions/'+idrefval+'.json'
             // console.log(url)
