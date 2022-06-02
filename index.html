@@ -86,7 +86,7 @@
             dt.appendChild(dd);
             for(k = 0;k<=pages[i][j].length-1;k++){ 
                 var p = document.createElement('li')
-                p.innerHTML= "<a href='#'>"+pages[i][j][k]+ "</a>"
+                p.innerHTML= "<a href='"+pages[i][j][k].trim()+".html'>"+pages[i][j][k]+ "</a>"
                 p.setAttribute("class", "democlass");
                 dd.appendChild(p)
             }
