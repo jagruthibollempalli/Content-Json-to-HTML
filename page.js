@@ -104,7 +104,7 @@ for(var i = 0;i<=pagedata.content.model.length-1;i++){
         text = k[j].children
         for(var le =0;le<= text.length-1;le++){
             console.log(text[le])
-            var d = document.createElement('p');
+            var d = document.createElement(k[j].type);
             console.log(text[le].text)
             d.innerText = text[le].text;
             c.appendChild(d);
